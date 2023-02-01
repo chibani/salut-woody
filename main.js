@@ -620,6 +620,9 @@ const Greeter = function(){
     this.copy_to_clipboard = () =>{
         navigator.clipboard.writeText(this.generated_greetings);
     }
+
+    //Update the adjectives counter
+    document.getElementById("txt_adjectives_counter").innerText = adjectives.length;
 }
 
 const greeter = new Greeter();
