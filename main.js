@@ -607,7 +607,7 @@ const Greeter = function(){
 
     const generate_greetings = () =>
     {
-        return `Salut les ${pick_adjective('copeaux')}, les ${pick_adjective('échardes', 'f')} et les les ${pick_adjective('sciures', 'f')}`
+        return `Salut les ${pick_adjective('copeaux')}, les ${pick_adjective('échardes', 'f')} et les ${pick_adjective('sciures', 'f')}`
     }
 
     //Public "methods"
