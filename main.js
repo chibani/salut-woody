@@ -1,6 +1,6 @@
 const Greeter = function(){
 
-    this.generated_greetings = '';
+    let generated_greetings = '';
     const adjectives = [
         '%s abordables',
         'admirables %s',
@@ -613,12 +613,12 @@ const Greeter = function(){
     //Public "methods"
     this.refresh_greetings = function ()
     {
-        this.generated_greetings = generate_greetings();
-        document.getElementById("txt_greetings").innerText = this.generated_greetings;
+        generated_greetings = generate_greetings();
+        document.getElementById("txt_greetings").innerText = generated_greetings;
     }
 
     this.copy_to_clipboard = () =>{
-        navigator.clipboard.writeText(this.generated_greetings);
+        navigator.clipboard.writeText(generated_greetings);
     }
 
     //Update the adjectives counter
