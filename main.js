@@ -2,6 +2,8 @@ const Greeter = function(){
 
     let generated_greetings = '';
     const adjectives = [
+
+        // Caractère / Psychologie
         '%s abordables',
         'admirables %s',
         'adorables %s',
@@ -272,8 +274,6 @@ const Greeter = function(){
         '%s incongru_e_s',
         '%s gourmand_e_s',
         {'m':'%s blagueurs', 'f':'%s blagueuses'},
-
-        // Négatifs
         '%s amorphes',
         '%s blasé_e_s',
         {'m':'%s crasseux', 'f':'%s crasseuses'},
@@ -301,7 +301,6 @@ const Greeter = function(){
         '%s ternes',
         '%s vilains',
         '%s vulgaires',
-        
         '%s sévères',
         '%s sincères',
         '%s snobs',
@@ -384,12 +383,13 @@ const Greeter = function(){
         '%s prudent_e_s',
         '%s puéril_le_s',
         '%s radin_e_s',
-        '%s rancunier_e_s',
+        {'m':'%s rancuniers','f':'rancunières'},
         '%s rebelles',
         '%s renfermé_e_s',
         '%s réservé_e_s',
         '%s ringard_e_s',
-        
+        '%s mystiques',
+        '%s irréductibles',
         {'m':'%s agressifs', 'f':'%s agressives'},
         {'m':'%s asociaux', 'f':'%s asociales'},
         {'m':'%s bagarreurs', 'f':'%s bagarreuses'},
@@ -419,8 +419,6 @@ const Greeter = function(){
         {'m':'%s rieurs', 'f':'%s rieuses'},
         {'m':'%s séducteurs', 'f':'%s séductrices'},
         {'m':'%s vaniteux', 'f':'%s vaniteuses'},
-        
-        '%s comme-ci-comme-ça',
         '%s écolo-bobo',
         '%s de droite',
         '%s de gauche',
@@ -429,16 +427,9 @@ const Greeter = function(){
         '%s éveillé_e_s',
         '%s awares',
         '%s matrixé_e_s',
-        '%s bien rangé_e_s',
-        '%s mal rangé_e_s',
-        '%s barbu_e_s',
-        '%s chevelu_e_s',
-        '%s échevelé_e_s',
-        '%s addicts',
-        '%s péremptoires',
-        '%s perpendiculaires',
+        '%s à deux doigts de péter un câble',
         
-        // Locations
+        // Géographie
         '%s breton_ne_s',
         '%s des Outre-mers',
         '%s expatrié_e_s',
@@ -446,11 +437,8 @@ const Greeter = function(){
         '%s sudistes',
         '%s Suisse-Allemands',
 
-        '%s doté_e_s du pouvoir des étoiles',
         '%s nobles d\'âme',
-        '%s qui subbent',
-        '%s abonné_e_s',
-
+        
         // Médecine
         `%s appendiculaires`,
         {'m':'%s cérébraux', 'f':'%s cérébrales'},
@@ -474,8 +462,15 @@ const Greeter = function(){
         {'m':'%s septaux', 'f':'%s septales'},
         {'m':'%s prandiaux', 'f':'%s prandiales'},
         '%s vésiculaires',
+
+        // Apparence
+        '%s barbu_e_s',
+        '%s chevelu_e_s',
+        '%s échevelé_e_s',
+        '%s coloré_e_s',
+        '%s en nuance de gris',
         
-        // Physique
+        // Physique / Chimie
         '%s non-newtonnien_ne_s',
         '%s asymptotiques',
         '%s électromagnétiques',
@@ -495,36 +490,33 @@ const Greeter = function(){
         '%s corpusculaires',
         '%s probabilistes',
         '%s conceptuel_le_s',
+        '%s ionisé_e_s',
         
-        '%s mystiques',
-        '%s irréductibles',
+        // Société
         '%s sourcé_e_s en circuit-court-han',
-        '%s au piment d\'Espelette',
-        '%s affûté_e_s',
         '%s coupé_e_s décalé_e_s',
         '%s qui sachent',
         '%s reptilien_ne_s',
         '%s croustillant_e_s',
         {'m':'%s ferrugineux', 'f':'%s ferrugineuses'},
         '%s mécatroniques',
-        '%s trombonistes',
-        '%s bassistes',
-        '%s guitaristes',
-        '%s batteurs',
-        '%s désaccordés',
+        '%s ninjas',
+        '%s open-source',
+        '%s éco-conçu_e_s',
+        '%s adeptes du grand Capital',
+        
+        // Menuiserie / Lutherie / Bois / Bricolage
+        '%s xylophages',
         '%s fretless',
         '%s égraîné_e_s au 2000',
         '%s poncé_e_s',
         '%s rabotté_e_s',
         '%s verni_e_s',
         '%s collé_e_s à la cyano',
-        '%s ninjas',
-        'Hokuto no %s',
-        '%s open-source',
-        '%s éco-conçu_e_s',
-        '%s adeptes du grand Capital',
-        '%s xylophages',
+        '%s affûté_e_s',
+        {'m':'multi-tonaux', '%s':'multi-tonales'},
         
+        // Astrologie
         '%s né_e_s en Bélier',
         '%s né_e_s en Taureau',
         '%s né_e_s en Gémeaux',
@@ -537,21 +529,21 @@ const Greeter = function(){
         '%s né_e_s en Capricorne',
         '%s né_e_s en Verseau',
         '%s né_e_s en Poisson',
+        '%s ascendant_e_s Bélier',
+        '%s ascendant_e_s Taureau',
+        '%s ascendant_e_s Gémeaux',
+        '%s ascendant_e_s Cancer',
+        '%s ascendant_e_s Lion',
+        '%s ascendant_e_s Vierges',
+        '%s ascendant_e_s Balance',
+        '%s ascendant_e_s Scorpion',
+        '%s ascendant_e_s Sagittaire',
+        '%s ascendant_e_s Capricorne',
+        '%s ascendant_e_s Verseau',
+        '%s ascendant_e_s Poisson',
         
-        '%s ascendant_e_s en Bélier',
-        '%s ascendant_e_s en Taureau',
-        '%s ascendant_e_s en Gémeaux',
-        '%s ascendant_e_s en Cancer',
-        '%s ascendant_e_s en Lion',
-        '%s ascendant_e_s en Vierges',
-        '%s ascendant_e_s en Balance',
-        '%s ascendant_e_s en Scorpion',
-        '%s ascendant_e_s en Sagittaire',
-        '%s ascendant_e_s en Capricorne',
-        '%s ascendant_e_s en Verseau',
-        '%s ascendant_e_s en Poisson',
-
-        // Cuisine
+        // Cuisine / Nourriture
+        '%s au piment d\'Espelette',
         '%s carbonara',
         '%s aux p\'tit salé',
         '%s à la mode de Caen',
@@ -565,27 +557,57 @@ const Greeter = function(){
         '%s au beurre',
         'les pesto de %s',
         '%s qui restent coincé_e_s entre les dents',
-
-        '%s divers',
-        '%s varié_e_s',
-        'camarades %s ✊',
-        '%s en sueur',
-        '%s à deux doigts de péter un câble',
+        
+        // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
         '%s qui croisent les effluves',
         '%s qui ne croisent pas les effluves',
-
-        '%s qui ont vu l\'homme qui a vu l’ours',
+        
+        // Pop-Culture
         '%s qui ont eu leur prénom dans le générique du Club Dorothée',
+        'Hokuto no %s',
+        
+        // Musique
         '%s tombé_e_s du ciel et dont les étoiles entre-elles ne font que parler',
+        '%s trombonistes',
+        '%s bassistes',
+        '%s guitaristes',
+        '%s batteurs',
+        '%s désaccordés',
+        '%s fans de Freddo Mercure',
+        '%s fans de Jacques Blanc',
+        '%s fans de Jacques Noir',
+        '%s en ré-mineur',
+        '%s en fa-dièse',
+        
+        // Propres à la chaîne WoodyLutherie ou Twitch
         '%s venu_e_s pour découvrir les meilleures playlist Spotify du Twitch Game',
         '%s qui ne connaissent pas encore Rush',
         '%s qui lâchent leur prime',
         '%s-sandwich de qualitay',
         '%s qui balancent des bons gros raids de 2000 personnes',
         '%s qui propulsent le hype train',
+        '%s doté_e_s du pouvoir des étoiles', // Alerte sub
+        '%s qui subbent',
+        '%s abonné_e_s',
+        
+        // Expressions courantes
+        '%s qui ont vu l\'homme qui a vu l’ours',
+        '%s comme-ci-comme-ça',
+        
+        // Divers et inclassables
+        '%s divers',
+        '%s varié_e_s',
+        'camarades %s ✊',
+        '%s en sueur',
+        '%s bien rangé_e_s',
+        '%s mal rangé_e_s',
+        '%s addicts',
+        '%s péremptoires',
+        '%s perpendiculaires',
+        
     ];
-
+    
     const pick_adjective = (word, gender='m') =>
     {
         const adj = adjectives[Math.floor(Math.random()*adjectives.length)];
