@@ -464,6 +464,8 @@ const Greeter = function(){
 
         // Apparence
         '%s barbu_e_s',
+        '%s moustachu_e_s',
+        '%s imberbes',
         '%s chevelu_e_s',
         '%s échevelé_e_s',
         '%s coloré_e_s',
@@ -507,7 +509,7 @@ const Greeter = function(){
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
         '%s fretless',
-        '%s égraîné_e_s au 2000',
+        '%s égrainé_e_s au 2000',
         '%s poncé_e_s',
         '%s rabotté_e_s',
         '%s verni_e_s',
