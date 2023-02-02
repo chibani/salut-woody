@@ -16,10 +16,10 @@ const Greeter = function(){
         '%s célestes',
         '%s charmant_e_s',
         '%s confiant_e_s',
-        {'m': '%s constant_e_s','f' : '%s constantes'},
-        {'m': '%s convaincant_e_s','f' : '%s convaincantes'},
+        {'m': '%s constants','f' : '%s constantes'},
+        {'m': '%s convaincants','f' : '%s convaincantes'},
         '%s convenables',
-        {'m': '%s coquet_e_s','f' : '%s coquettes'},
+        {'m': '%s coquets','f' : '%s coquettes'},
         {'m': '%s costauds','f' : '%s costaudes'},
         '%s délicat_e_s',
         '%s distingué_e_s',
@@ -428,6 +428,7 @@ const Greeter = function(){
         '%s awares',
         '%s matrixé_e_s',
         '%s à deux doigts de péter un câble',
+        '%s nobles d\'âme',
         
         // Géographie
         '%s breton_ne_s',
@@ -437,8 +438,6 @@ const Greeter = function(){
         '%s sudistes',
         '%s Suisse-Allemands',
 
-        '%s nobles d\'âme',
-        
         // Médecine
         `%s appendiculaires`,
         {'m':'%s cérébraux', 'f':'%s cérébrales'},
@@ -552,11 +551,14 @@ const Greeter = function(){
         'accras de %s',
         '%s béchamel',
         '%s saisi_e_s à la plancha',
-        '%s cuit_e_s au four à bois',
+        '%s cuit_e_s au feu de bois',
         'succulents kebabs "salade - Tomates - %s"',
         '%s au beurre',
-        'les pesto de %s',
+        'pesto de %s',
         '%s qui restent coincé_e_s entre les dents',
+        '%s qui coupent les spaghetthi avant de les faire cuire',
+        '%s pas trop cuit_e_s',
+        '%s comestibles',
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
