@@ -513,7 +513,7 @@ const Greeter = function(){
         '%s verni_e_s',
         '%s collé_e_s à la cyano',
         '%s affûté_e_s',
-        {'m':'multi-tonaux', '%s':'multi-tonales'},
+        {'m':'%s multi-tonaux', 'f':'%s multi-tonales'},
         
         // Astrologie
         '%s né_e_s en Bélier',
@@ -601,13 +601,16 @@ const Greeter = function(){
         '%s divers',
         '%s varié_e_s',
         'camarades %s ✊',
+        '%s pirates',
         '%s en sueur',
         '%s bien rangé_e_s',
         '%s mal rangé_e_s',
         '%s addicts',
         '%s péremptoires',
         '%s perpendiculaires',
-        
+        '%s généré_e_s par ChatGPT',
+        '%s encore sous blister',
+        '%s qui branchent leurs prises USB Type A dans le bon sens du premier coup',
     ];
     
     const pick_adjective = (word, gender='m') =>
