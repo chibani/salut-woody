@@ -461,6 +461,8 @@ const Greeter = function(){
         {'m':'%s septaux', 'f':'%s septales'},
         {'m':'%s prandiaux', 'f':'%s prandiales'},
         '%s vésiculaires',
+        '%s ventriloques',
+        '%s flatulentes',
 
         // Apparence
         '%s barbu_e_s',
@@ -505,6 +507,7 @@ const Greeter = function(){
         '%s open-source',
         '%s éco-conçu_e_s',
         '%s adeptes du grand Capital',
+        '%s décroissant_e_s',
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -516,6 +519,9 @@ const Greeter = function(){
         '%s collé_e_s à la cyano',
         '%s affûté_e_s',
         {'m':'%s multi-tonaux', 'f':'%s multi-tonales'},
+        '%s en résine',
+        '%s doré_e_s finement',
+        '%s sculpté_e_s à la main',
         
         // Astrologie
         '%s né_e_s en Bélier',
@@ -546,26 +552,35 @@ const Greeter = function(){
         // Cuisine / Nourriture
         '%s au piment d\'Espelette',
         '%s carbonara',
+        'tagines de %s',
         '%s aux p\'tit salé',
         '%s à la mode de Caen',
         '%s frit_e_s',
+        '%s pané_e_s',
+        '%s farci_e_s',
         'sushis de %s',
         'accras de %s',
+        'cheesecakes de %s',
+        'galettes de %s',
         '%s béchamel',
         '%s saisi_e_s à la plancha',
         '%s cuit_e_s au feu de bois',
         'succulents kebabs "salade - Tomates - %s"',
         '%s au beurre',
+        '%s au saindoux',
+        '%s à l\'huile d\'olive',
         'pesto de %s',
         '%s qui restent coincé_e_s entre les dents',
         '%s qui coupent les spaghetthi avant de les faire cuire',
         '%s pas trop cuit_e_s',
         '%s comestibles',
+        '%s fondant_e_s à l\'intérieur',
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
         '%s qui croisent les effluves',
         '%s qui ne croisent pas les effluves',
+        '%s au shaker, pas à la cuillère',
         
         // Pop-Culture
         '%s qui ont eu leur prénom dans le générique du Club Dorothée',
