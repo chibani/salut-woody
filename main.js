@@ -96,15 +96,15 @@ const Greeter = function(){
         '%s complaisant_e_s',
         '%s complémentaires',
         '%s complices',
-        '%s compréhensifs',
-        '%s concentrés',
+        {'m':'%s compréhensifs', 'f': '%s compréhensives'},
+        '%s concentré_e_s',
         '%s conciliant_e_s',
         {'m':'%s consciencieux', 'f':'%s consciencieuses'},
         '%s content_e_s',
-        '%s conviviaux',
-        '%s coopératifs',
+        {'m':'%s conviviaux', 'f':'%s conviviales'},
+        {'m':'%s coopératifs', 'f':'%s coopératives'},
         {'m':'%s courageux', 'f':'%s courageuses'},
-        '%s courtoi_es_s',
+        '%s courtoi_se_s',
         {'m':'%s créatifs','f':'%s créatives'},
         '%s cultivé_e_s',
         {'m':'%s curieux','f':'%s curieuses'},
@@ -157,6 +157,7 @@ const Greeter = function(){
         '%s impressionnant_e_s',
         '%s indulgent_e_s',
         '%s infatigables',
+        '%s fatigué_e_s',
         '%s influent_e_s',
         {'m':'%s ingénieux', 'f':'%s ingénieuses'},
         {'m':'%s inoffensifs', 'f':'%s inoffensives'},
@@ -393,7 +394,7 @@ const Greeter = function(){
         {'m':'%s agressifs', 'f':'%s agressives'},
         {'m':'%s asociaux', 'f':'%s asociales'},
         {'m':'%s bagarreurs', 'f':'%s bagarreuses'},
-        {'m':'%s baratineurs', 'f':'%s baratineses'},
+        {'m':'%s baratineurs', 'f':'%s baratineuses'},
         {'m':'%s boudeurs', 'f':'%s boudeuses'},
         {'m':'%s capricieux', 'f':'%s capricieuses'},
         {'m':'%s coléreux', 'f':'%s coléreuses'},
@@ -462,7 +463,7 @@ const Greeter = function(){
         {'m':'%s prandiaux', 'f':'%s prandiales'},
         '%s vésiculaires',
         '%s ventriloques',
-        '%s flatulentes',
+        '%s flatulent_e_s',
 
         // Apparence
         '%s barbu_e_s',
@@ -472,6 +473,7 @@ const Greeter = function(){
         '%s échevelé_e_s',
         '%s coloré_e_s',
         '%s en nuance de gris',
+        '%s RGB',
         
         // Physique / Chimie
         '%s non-newtonnien_ne_s',
@@ -499,6 +501,7 @@ const Greeter = function(){
         '%s sourcé_e_s en circuit-court-han',
         '%s coupé_e_s décalé_e_s',
         '%s qui sachent',
+        '%s complotistes',
         '%s reptilien_ne_s',
         '%s croustillant_e_s',
         {'m':'%s ferrugineux', 'f':'%s ferrugineuses'},
@@ -508,6 +511,10 @@ const Greeter = function(){
         '%s éco-conçu_e_s',
         '%s adeptes du grand Capital',
         '%s décroissant_e_s',
+        '%s de gauche',
+        '%s de droite',
+        {'m':'%s antisociaux qui perdent leur sang froid', 'f':'%s antisociales qui perdent leur sang froid'},
+        '%s de l\'Armée Rouge',
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -593,11 +600,15 @@ const Greeter = function(){
         '%s guitaristes',
         '%s batteurs',
         '%s désaccordés',
-        '%s fans de Freddo Mercure',
-        '%s fans de Jacques Blanc',
-        '%s fans de Jacques Noir',
         '%s en ré-mineur',
         '%s en fa-dièse',
+
+        // Fans des artistes réguliers des playlists de Woody
+        '%s fans de Freddo Mercure', // Freddy Mercury
+        '%s fans de Jacques Blanc', // Jack White
+        '%s fans de Jacques Noir', // Jack Black
+        '%s fans de David Godasse', // Dave Grohl
+        '%s fans de Michel fils de Jacques', // Michael Jackson
         
         // Propres à la chaîne WoodyLutherie ou Twitch
         '%s venu_e_s pour découvrir les meilleures playlist Spotify du Twitch Game',
