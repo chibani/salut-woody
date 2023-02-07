@@ -290,6 +290,7 @@ const Greeter = function(){
         '%s fades',
         '%s frustré_e_s',
         '%s gêné_e_s',
+        '%s gênant_e_s',
         {'m':'%s hideux', 'f':'%s hideuses'},
         '%s horribles',
         '%s maigres',
@@ -379,7 +380,7 @@ const Greeter = function(){
         '%s obstiné_e_s',
         '%s pédant_e_s',
         '%s perfectionnistes',
-        '%s pervers',
+        '%s pervers_es_',
         '%s poli_e_s',
         '%s prudent_e_s',
         '%s puéril_le_s',
@@ -420,9 +421,6 @@ const Greeter = function(){
         {'m':'%s rieurs', 'f':'%s rieuses'},
         {'m':'%s séducteurs', 'f':'%s séductrices'},
         {'m':'%s vaniteux', 'f':'%s vaniteuses'},
-        '%s écolo-bobo',
-        '%s de droite',
-        '%s de gauche',
         '%s encapuchoné_e_s',
         '%s interconnecté_e_s',
         '%s éveillé_e_s',
@@ -430,6 +428,7 @@ const Greeter = function(){
         '%s matrixé_e_s',
         '%s à deux doigts de péter un câble',
         '%s nobles d\'âme',
+        '%s matérialistes',
         
         // Géographie
         '%s breton_ne_s',
@@ -496,6 +495,7 @@ const Greeter = function(){
         '%s probabilistes',
         '%s conceptuel_le_s',
         '%s ionisé_e_s',
+        '%s galactiques',
         
         // Société
         '%s sourcé_e_s en circuit-court-han',
@@ -509,12 +509,17 @@ const Greeter = function(){
         '%s ninjas',
         '%s open-source',
         '%s éco-conçu_e_s',
+        '%s écolo-bobo',
         '%s adeptes du grand Capital',
         '%s décroissant_e_s',
         '%s de gauche',
         '%s de droite',
+        '%s abstentionnistes',
+        {'m':'%s partisans, ouvriers et paysans', 'f': '%s partisanes, ouvrières et paysannes'},
         {'m':'%s antisociaux qui perdent leur sang froid', 'f':'%s antisociales qui perdent leur sang froid'},
         '%s de l\'Armée Rouge',
+        '%s recyclables',
+        '%s recyclé_e_s',
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -582,16 +587,23 @@ const Greeter = function(){
         '%s pas trop cuit_e_s',
         '%s comestibles',
         '%s fondant_e_s à l\'intérieur',
+        '%s base crème',
+        '%s base tomate',
+        '%s au miel',
+        '%s avec supplément bacon',
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
         '%s qui croisent les effluves',
         '%s qui ne croisent pas les effluves',
         '%s au shaker, pas à la cuillère',
+        '%s limite nervous breakdown',
         
         // Pop-Culture
         '%s qui ont eu leur prénom dans le générique du Club Dorothée',
         'Hokuto no %s',
+        '%s attachiant_e_s',
+        '%s précis_es_ pointu_e_s comme les mouettes',
         
         // Musique
         '%s tombé_e_s du ciel et dont les étoiles entre-elles ne font que parler',
@@ -600,7 +612,6 @@ const Greeter = function(){
         '%s guitaristes',
         {'m':'%s batteurs','f':'%s batteuses'},
         '%s clavieristes',
-
         '%s désaccordés',
         '%s en ré-mineur',
         '%s en fa-dièse',
@@ -622,10 +633,12 @@ const Greeter = function(){
         '%s doté_e_s du pouvoir des étoiles', // Alerte sub
         '%s qui subbent',
         '%s abonné_e_s',
+        '%s qui perdent leurs ciseaux',
         
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
         '%s comme-ci-comme-ça',
+        '%s épatatants',
         
         // Divers et inclassables
         '%s divers',
@@ -639,6 +652,7 @@ const Greeter = function(){
         '%s péremptoires',
         '%s perpendiculaires',
         '%s généré_e_s par ChatGPT',
+        '%s random',
         '%s encore sous blister',
         '%s qui branchent leurs prises USB Type A dans le bon sens du premier coup',
     ];
