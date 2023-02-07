@@ -465,6 +465,12 @@ const Greeter = function(){
         '%s ventriloques',
         '%s flatulent_e_s',
 
+        // Dimensions
+        '%s titanesques',
+        '%s microscopiques',
+        '%s nanoscopiques',
+        '%s gigantesques',
+
         // Apparence
         '%s barbu_e_s',
         '%s moustachu_e_s',
@@ -500,6 +506,7 @@ const Greeter = function(){
         '%s invisibles',
         '%s inextricables',
         '%s déstructuré_e_s',
+        '%s rectilignes',
         
         // Société
         '%s sourcé_e_s en circuit-court-han',
@@ -527,6 +534,7 @@ const Greeter = function(){
         '%s des bois',
         '%s arboricoles',
         '%s déconstruit_e_s',
+        '%s surnaturel_le_s',
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -538,9 +546,18 @@ const Greeter = function(){
         '%s collé_e_s à la cyano',
         '%s affûté_e_s',
         {'m':'%s multi-tonaux', 'f':'%s multi-tonales'},
-        '%s en résine',
         '%s doré_e_s finement',
         '%s sculpté_e_s à la main',
+        
+        // Matériaux
+        '%s en résine',
+        '%s métalliques',
+        '%s chromé_e_s',
+        '%s plaqué_e_s or',
+        '%s en titane de carbone',
+        '%s en adamantium',
+        '%s en plastoc',
+        '%s iridescents',
         
         // Astrologie
         '%s né_e_s en Bélier',
@@ -600,6 +617,7 @@ const Greeter = function(){
         '%s avec supplément bacon',
         '%s torréfié_e_s',
         '%s malté_e_s',
+        '%s zytophiles',
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
@@ -625,6 +643,9 @@ const Greeter = function(){
         '%s désaccordés',
         '%s en ré-mineur',
         '%s en fa-dièse',
+        '%s chanteurs de K-pop',
+        '%s métalleux',
+        '%s punks',
 
         // Fans des artistes réguliers des playlists de Woody
         '%s fans de Freddo Mercure', // Freddy Mercury
