@@ -112,6 +112,7 @@ const Greeter = function(){
         '%s décidé_e_s',
         '%s décontracté_e_s',
         '%s détendu_e_s',
+        '%s tendu_e_s',
         '%s déterminé_e_s',
         '%s dévoué_e_s',
         '%s dignes',
@@ -299,9 +300,9 @@ const Greeter = function(){
         '%s nonchalant_e_s',
         '%s sales',
         '%s sauvages',
-        '%s superficiels',
+        '%s superficiel_le_s',
         '%s ternes',
-        '%s vilains',
+        'vilain_e_s %s',
         '%s vulgaires',
         '%s sévères',
         '%s sincères',
@@ -496,6 +497,9 @@ const Greeter = function(){
         '%s conceptuel_le_s',
         '%s ionisé_e_s',
         '%s galactiques',
+        '%s invisibles',
+        '%s inextricables',
+        '%s déstructuré_e_s',
         
         // Société
         '%s sourcé_e_s en circuit-court-han',
@@ -520,6 +524,9 @@ const Greeter = function(){
         '%s de l\'Armée Rouge',
         '%s recyclables',
         '%s recyclé_e_s',
+        '%s des bois',
+        '%s arboricoles',
+        '%s déconstruit_e_s',
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -591,6 +598,8 @@ const Greeter = function(){
         '%s base tomate',
         '%s au miel',
         '%s avec supplément bacon',
+        '%s torréfié_e_s',
+        '%s malté_e_s',
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
@@ -607,6 +616,7 @@ const Greeter = function(){
         
         // Musique
         '%s tombé_e_s du ciel et dont les étoiles entre-elles ne font que parler',
+        '%s à qui on a mis la fièvre pendant des heures',
         '%s trombonistes',
         '%s bassistes',
         '%s guitaristes',
@@ -624,7 +634,7 @@ const Greeter = function(){
         '%s fans de Michel fils de Jacques', // Michael Jackson
         
         // Propres à la chaîne WoodyLutherie ou Twitch
-        '%s venu_e_s pour découvrir les meilleures playlist Spotify du Twitch Game',
+        '%s venu_e_s découvrir les meilleures playlist Spotify du Twitch Game',
         '%s qui ne connaissent pas encore Rush',
         '%s qui lâchent leur prime',
         '%s-sandwich de qualitay',
@@ -638,7 +648,7 @@ const Greeter = function(){
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
         '%s comme-ci-comme-ça',
-        '%s épatatants',
+        '%s épatatant_e_s',
         
         // Divers et inclassables
         '%s divers',
@@ -655,6 +665,7 @@ const Greeter = function(){
         '%s random',
         '%s encore sous blister',
         '%s qui branchent leurs prises USB Type A dans le bon sens du premier coup',
+        '%s qui dorment au fond de la salle à côté du radiateur'
     ];
     
     const pick_adjective = (word, gender='m') =>
