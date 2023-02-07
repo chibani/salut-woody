@@ -598,7 +598,9 @@ const Greeter = function(){
         '%s trombonistes',
         '%s bassistes',
         '%s guitaristes',
-        '%s batteurs',
+        {'m':'%s batteurs','f':'%s batteuses'},
+        '%s clavieristes',
+
         '%s désaccordés',
         '%s en ré-mineur',
         '%s en fa-dièse',
