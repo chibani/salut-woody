@@ -9,7 +9,7 @@ L'outil proposé est un simple générateur de texte à trou, basé sur le templ
 
 ## Les qualificatifs  
 Ils sont "stockés" dans une constante, dans le script `main.js` (à la racine du projet).  
-La liste des qualificatifs est assez longue, plus de 500 éléments.  
+La liste des qualificatifs est assez longue, plus de 600 éléments.  
 
 ### Format des qualificatifs et accord en genre  
 Parce que le Français est une langue genrée (quelle chance ont les anglophones... ça simplifie tellement le code), j'ai adopté la convention de codage suivante :  
