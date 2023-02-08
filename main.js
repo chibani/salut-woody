@@ -726,7 +726,7 @@ const Greeter = function(){
         if(gender=='f'){
             return adj.replaceAll('_', '');
         }else{
-            return adj.replace(/_[^_]+_/, '');
+            return adj.replaceAll(/_[^_]+_/g, '');
         }
     }
 
