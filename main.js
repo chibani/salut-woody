@@ -430,6 +430,11 @@ const Greeter = function(){
         '%s à deux doigts de péter un câble',
         '%s nobles d\'âme',
         '%s matérialistes',
+        '%s perceptifs',
+        '%s mentalistes',
+        '%s illusionistes',
+        '%s marionnettistes',
+        '%s magiques',
         
         // Géographie
         '%s breton_ne_s',
@@ -438,6 +443,7 @@ const Greeter = function(){
         '%s zadistes',
         '%s sudistes',
         '%s Suisse-Allemands',
+        '%s armoricain_e_s',
 
         // Médecine
         `%s appendiculaires`,
@@ -507,6 +513,8 @@ const Greeter = function(){
         '%s inextricables',
         '%s déstructuré_e_s',
         '%s rectilignes',
+        '%s lyophilisé_e_s',
+        '%s déshydraté_e_s',
         
         // Société
         '%s sourcé_e_s en circuit-court-han',
@@ -640,12 +648,16 @@ const Greeter = function(){
         '%s guitaristes',
         {'m':'%s batteurs','f':'%s batteuses'},
         '%s clavieristes',
+        '%s xylophonistes',
+        '%s chanteurs',
+        '%s choristes',
         '%s désaccordés',
         '%s en ré-mineur',
         '%s en fa-dièse',
         '%s chanteurs de K-pop',
         '%s métalleux',
         '%s punks',
+        '%s grégorien_ne_s',
 
         // Fans des artistes réguliers des playlists de Woody
         '%s fans de Freddo Mercure', // Freddy Mercury
@@ -670,6 +682,16 @@ const Greeter = function(){
         '%s qui ont vu l\'homme qui a vu l’ours',
         '%s comme-ci-comme-ça',
         '%s épatatant_e_s',
+        '%s épatatants',
+        '%s à la one again',
+
+        // Tenues vestimentaires
+        '%s en débardeur',
+        '%s vêtu_e_s de cuir',
+        '%s en spandex',
+        '%s en short',
+        '%s en tongs',
+        '%s en Dick Marton\'s',
         
         // Divers et inclassables
         '%s divers',
@@ -725,7 +747,7 @@ const Greeter = function(){
     }
 
     //Update the adjectives counter
-    document.getElementById("txt_adjectives_counter").innerText = adjectives.length;
+    document.getElementById("txt_adjectives_counter").innerText = adjectives.length-1;
 }
 
 const greeter = new Greeter();
