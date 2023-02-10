@@ -7,46 +7,45 @@
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   "default": () => (/* binding */ Greeter)
 /* harmony export */ });
-const Greeter = function(config){
+class Greeter {
+    generated_greetings = '';
 
-    let generated_greetings = '';
-    this.config = config;
-    
-    this.pick_adjective = (word, gender='m') =>
-    {
-        const adj = this.config.adjectives[Math.floor(Math.random()*this.config.adjectives.length)];
-        
-        if(typeof adj==='string'){
+    constructor(config) {
+        this.config = config;
+    }
+
+    pick_adjective = (word, gender = 'm') => {
+        const adj = this.config.adjectives[Math.floor(Math.random() * this.config.adjectives.length)];
+
+        if (typeof adj === 'string') {
             return this.gender_swap(adj, gender).replace('%s', word);
-        }else{
+        } else {
             return adj[gender].replace('%s', word);
         }
     }
 
-    this.gender_swap = (adj, gender) => {
-        if(gender=='f'){
+     gender_swap = (adj, gender) => {
+        if (gender == 'f') {
             return adj.replaceAll('_', '');
-        }else{
+        } else {
             return adj.replace(/_[^_]+_/, '');
         }
+    };
+
+    refresh_greetings = function () {
+        this.generated_greetings = this.config.generate_greetings(this.pick_adjective);
+    };
+
+    copy_to_clipboard = () => {
+        navigator.clipboard.writeText(this.generated_greetings);
     }
 
-    this.refresh_greetings = function ()
-    {
-        generated_greetings = config.generate_greetings(this.pick_adjective);
-        document.getElementById("txt_greetings").innerText = generated_greetings;
+    get_generated_greetings = () => {
+        return this.generated_greetings;
     }
-
-    this.copy_to_clipboard = () =>{
-        navigator.clipboard.writeText(generated_greetings);
-    }
-
-    //Update the adjectives counter
-    document.getElementById("txt_adjectives_counter").innerText = config.adjectives.length;
 }
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Greeter);
 
 /***/ })
 /******/ 	]);
@@ -112,6 +111,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_greeter_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 
 
+// console.log(Greeter);//FIXME
+
 // Setup
 const greeter = new _src_greeter_js__WEBPACK_IMPORTED_MODULE_0__["default"]({
     "generate_greetings": (pick_adjective) =>
@@ -120,14 +121,19 @@ const greeter = new _src_greeter_js__WEBPACK_IMPORTED_MODULE_0__["default"]({
     },
 
     "adjectives" : [
-        'magiques',
+        '%s magiques',
     ]
 });
 
 test('Should gender correctly', ()=>{
     expect(greeter.gender_swap('magique')).toBe('magique');
     expect(greeter.gender_swap('joli_e_s', 'f')).toBe('jolies');
-    expect(greeter.gender_swap('joli_e_s', 'm')).toBe('jolies');
+    expect(greeter.gender_swap('joli_e_s', 'm')).toBe('jolis');
+});
+
+test('Should generate the greeting properly', ()=>{
+    greeter.refresh_greetings();
+    expect(greeter.get_generated_greetings()).toBe('On test les copeaux magiques');
 });
 })();
 
