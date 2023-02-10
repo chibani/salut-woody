@@ -435,6 +435,7 @@ const Greeter = function(){
         '%s illusionistes',
         '%s marionnettistes',
         '%s magiques',
+        '%s banal_e_s,
         
         // Géographie
         '%s breton_ne_s',
@@ -626,6 +627,7 @@ const Greeter = function(){
         '%s torréfié_e_s',
         '%s malté_e_s',
         '%s zytophiles',
+        '%s avarié_e_s',
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
@@ -633,6 +635,7 @@ const Greeter = function(){
         '%s qui ne croisent pas les effluves',
         '%s au shaker, pas à la cuillère',
         '%s limite nervous breakdown',
+        '%s éparpillé_e_s façon puzzle',
         
         // Pop-Culture
         '%s qui ont eu leur prénom dans le générique du Club Dorothée',
@@ -677,6 +680,7 @@ const Greeter = function(){
         '%s qui subbent',
         '%s abonné_e_s',
         '%s qui perdent leurs ciseaux',
+        '%s rangé_e_s dans la cabane',
         
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
@@ -692,6 +696,7 @@ const Greeter = function(){
         '%s en short',
         '%s en tongs',
         '%s en Dick Marton\'s',
+        '%s en habits du dimanche',
         
         // Divers et inclassables
         '%s divers',
@@ -708,7 +713,14 @@ const Greeter = function(){
         '%s random',
         '%s encore sous blister',
         '%s qui branchent leurs prises USB Type A dans le bon sens du premier coup',
-        '%s qui dorment au fond de la salle à côté du radiateur'
+        '%s qui dorment au fond de la salle à côté du radiateur',
+        '%s dual-core',
+        '%s sans fil',
+        '%s full-HD',
+        '%s 4K RTX',
+        '%s multijoueurs',
+        '%s en édition limitée',
+        '%s dédicacés par Josh Homme'
     ];
     
     const pick_adjective = (word, gender='m') =>
