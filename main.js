@@ -435,7 +435,7 @@ const Greeter = function(){
         '%s illusionistes',
         '%s marionnettistes',
         '%s magiques',
-        '%s banal_e_s,
+        '%s banal_e_s',
         
         // Géographie
         '%s breton_ne_s',
