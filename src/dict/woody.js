@@ -1,7 +1,12 @@
-const Greeter = function(){
+export default {
 
-    let generated_greetings = '';
-    const adjectives = [
+    // Template de salutation
+    "generate_greetings": (pick_adjective) =>
+    {
+        return `Salut les ${pick_adjective('copeaux')}, les ${pick_adjective('échardes', 'f')} et les ${pick_adjective('sciures', 'f')}`
+    },
+
+    "adjectives" : [
 
         // Caractère / Psychologie
         '%s abordables',
@@ -713,6 +718,7 @@ const Greeter = function(){
         '%s random',
         '%s encore sous blister',
         '%s qui branchent leurs prises USB Type A dans le bon sens du premier coup',
+
         '%s qui dorment au fond de la salle à côté du radiateur',
         '%s dual-core',
         '%s sans fil',
@@ -721,49 +727,5 @@ const Greeter = function(){
         '%s multijoueurs',
         '%s en édition limitée',
         '%s dédicacés par Josh Homme'
-    ];
-    
-    const pick_adjective = (word, gender='m') =>
-    {
-        const adj = adjectives[Math.floor(Math.random()*adjectives.length)];
-        
-        if(typeof adj==='string'){
-            return gender_swap(adj, gender).replace('%s', word);
-        }else{
-            return adj[gender].replace('%s', word);
-        }
-    }
-
-    const gender_swap = (adj, gender) => {
-        if(gender=='f'){
-            return adj.replaceAll('_', '');
-        }else{
-            return adj.replaceAll(/_[^_]+_/g, '');
-        }
-    }
-
-    const generate_greetings = () =>
-    {
-        return `Salut les ${pick_adjective('copeaux')}, les ${pick_adjective('échardes', 'f')} et les ${pick_adjective('sciures', 'f')}`
-    }
-
-    //Public "methods"
-    this.refresh_greetings = function ()
-    {
-        generated_greetings = generate_greetings();
-        document.getElementById("txt_greetings").innerText = generated_greetings;
-    }
-
-    this.copy_to_clipboard = () =>{
-        navigator.clipboard.writeText(generated_greetings);
-    }
-
-    //Update the adjectives counter
-    document.getElementById("txt_adjectives_counter").innerText = adjectives.length-1;
+    ]
 }
-
-const greeter = new Greeter();
-
-document.getElementById("btn_refresh").addEventListener("click", greeter.refresh_greetings);
-document.getElementById("btn_copy").addEventListener("click", greeter.copy_to_clipboard);
-greeter.refresh_greetings();
