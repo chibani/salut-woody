@@ -386,7 +386,7 @@ const Greeter = function(){
         '%s prudent_e_s',
         '%s puéril_le_s',
         '%s radin_e_s',
-        {'m':'%s rancuniers','f':'rancunières'},
+        {'m':'%s rancuniers','f':'%s rancunières'},
         '%s rebelles',
         '%s renfermé_e_s',
         '%s réservé_e_s',
