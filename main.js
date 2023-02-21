@@ -436,6 +436,9 @@ const Greeter = function(){
         '%s marionnettistes',
         '%s magiques',
         '%s banal_e_s',
+        '%s noctambules',
+        '%s diurnes',
+        '%s nictalopes',
         
         // Géographie
         '%s breton_ne_s',
@@ -567,6 +570,8 @@ const Greeter = function(){
         '%s en adamantium',
         '%s en plastoc',
         '%s iridescents',
+        '%s en nacre',
+        '%s arboricoles',
         
         // Astrologie
         '%s né_e_s en Bélier',
@@ -642,6 +647,8 @@ const Greeter = function(){
         'Hokuto no %s',
         '%s attachiant_e_s',
         '%s précis_es_ pointu_e_s comme les mouettes',
+        '%s en Odorama',
+        '%s enregistré_e_s sur VHS',
         
         // Musique
         '%s tombé_e_s du ciel et dont les étoiles entre-elles ne font que parler',
@@ -661,6 +668,7 @@ const Greeter = function(){
         '%s métalleux',
         '%s punks',
         '%s grégorien_ne_s',
+        '%s qui pogotent dans la fosse',
 
         // Fans des artistes réguliers des playlists de Woody
         '%s fans de Freddo Mercure', // Freddy Mercury
@@ -681,6 +689,8 @@ const Greeter = function(){
         '%s abonné_e_s',
         '%s qui perdent leurs ciseaux',
         '%s rangé_e_s dans la cabane',
+        '%s vêtu_e_s d\'un splendide tablier',
+        '%s en text-to-speech germanique',
         
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
@@ -697,6 +707,8 @@ const Greeter = function(){
         '%s en tongs',
         '%s en Dick Marton\'s',
         '%s en habits du dimanche',
+        '%s ajusté_e_s près du corps',
+        '%s en laine qui grattent ses morts',
         
         // Divers et inclassables
         '%s divers',
@@ -720,7 +732,7 @@ const Greeter = function(){
         '%s 4K RTX',
         '%s multijoueurs',
         '%s en édition limitée',
-        '%s dédicacés par Josh Homme'
+        '%s dédicacés par Josh Homme',
     ];
     
     const pick_adjective = (word, gender='m') =>
