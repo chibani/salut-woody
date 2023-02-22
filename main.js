@@ -716,6 +716,16 @@ const Greeter = function(){
         '%s en laine qui grattent ses morts',
         '%s taille basse',
         
+        // Classement
+        '%s S-tier',
+        '%s A-tier',
+        '%s B-tier',
+        '%s C-tier',
+        '%s OK-tier',
+        '%s top of the pop',
+        '%s number one',
+        {'m': '%s premiers de la classe', 'f': '%s premières de la classe'},
+        
         // Divers et inclassables
         '%s divers',
         '%s varié_e_s',
@@ -743,6 +753,9 @@ const Greeter = function(){
         '%s en réalité augmentée',
         '%s collectors',
         '%s en édition limitée',
+        '%s au taff',
+        '%s en congés',
+        '%s en vacances',
     ];
     
     const pick_adjective = (word, gender='m') =>
