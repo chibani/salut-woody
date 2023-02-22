@@ -741,7 +741,7 @@ const Greeter = function(){
         '%s multijoueurs',
         '%s virtuel_le_s',
         '%s en réalité augmentée',
-        '%s collectors'
+        '%s collectors',
         '%s en édition limitée',
     ];
     
