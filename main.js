@@ -519,6 +519,10 @@ const Greeter = function(){
         '%s rectilignes',
         '%s lyophilisé_e_s',
         '%s déshydraté_e_s',
+        '%s autoalimenté_e_s',
+        '%s en énergie libre',
+        '%s qui échappent aux lois de la physique',
+        '%s pataphysiques',
         
         // Société
         '%s sourcé_e_s en circuit-court-han',
@@ -676,6 +680,7 @@ const Greeter = function(){
         '%s fans de Jacques Noir', // Jack Black
         '%s fans de David Godasse', // Dave Grohl
         '%s fans de Michel fils de Jacques', // Michael Jackson
+        '%s dédicacés par Josh Homme',
         
         // Propres à la chaîne WoodyLutherie ou Twitch
         '%s venu_e_s découvrir les meilleures playlist Spotify du Twitch Game',
@@ -709,6 +714,7 @@ const Greeter = function(){
         '%s en habits du dimanche',
         '%s ajusté_e_s près du corps',
         '%s en laine qui grattent ses morts',
+        '%s taille basse',
         
         // Divers et inclassables
         '%s divers',
@@ -730,9 +736,13 @@ const Greeter = function(){
         '%s sans fil',
         '%s full-HD',
         '%s 4K RTX',
+        '%s cathodiques',
+        '%s en Dolby surround',
         '%s multijoueurs',
+        '%s virtuel_le_s',
+        '%s en réalité augmentée',
+        '%s collectors'
         '%s en édition limitée',
-        '%s dédicacés par Josh Homme',
     ];
     
     const pick_adjective = (word, gender='m') =>
