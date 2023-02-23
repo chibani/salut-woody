@@ -704,7 +704,7 @@ const Greeter = function(){
         '%s épatatant_e_s',
         '%s épatatants',
         '%s à la one again',
-        '%s couci-couça'
+        '%s couci-couça',
 
         // Tenues vestimentaires
         '%s en débardeur',
