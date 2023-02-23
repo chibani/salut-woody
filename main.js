@@ -410,7 +410,7 @@ const Greeter = function(){
         {'m':'%s malicieux', 'f':'%s malicieux'},
         {'m':'%s manipulateurs', 'f':'%s manipulatrices'},
         {'m':'%s menteurs', 'f':'%s menteuses'},
-        {'m':'%s moqueur', 'f':'%s moqueuses'},
+        {'m':'%s moqueurs', 'f':'%s moqueuses'},
         {'m':'%s mystérieux', 'f':'%s mystérieuses'},
         {'m':'%s naïfs', 'f':'%s naïves'},
         {'m':'%s possessifs', 'f':'%s possessives'},
@@ -637,6 +637,7 @@ const Greeter = function(){
         '%s malté_e_s',
         '%s zytophiles',
         '%s avarié_e_s',
+        '%s universel_le_s',
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
@@ -703,6 +704,7 @@ const Greeter = function(){
         '%s épatatant_e_s',
         '%s épatatants',
         '%s à la one again',
+        '%s couci-couça'
 
         // Tenues vestimentaires
         '%s en débardeur',
@@ -725,6 +727,22 @@ const Greeter = function(){
         '%s top of the pop',
         '%s number one',
         {'m': '%s premiers de la classe', 'f': '%s premières de la classe'},
+        {'m': '%s fabuleux', 'f': '%s fabuleuses'},
+        
+        // JDR
+        {'m':'%s loyaux bons','f': '%s loyales bonnes'},
+        {'m':'%s neutres bons','f': '%s neutres bonnes'},
+        {'m':'%s chaotiques bons','f': '%s chaotiques bonnes'},
+        {'m':'%s loyaux neutres','f': '%s loyales neutres'},
+        '%s neutres (neutres)',
+        {'m':'%s chaotiques neutres','f': '%s chaotiques neutres'},
+        {'m':'%s loyaux mauvais','f': '%s loyales mauvaises'},
+        {'m':'%s neutres mauvais','f': '%s neutres mauvaises'},
+        {'m':'%s chaotiques mauvais','f': '%s chaotiques mauvaises'},
+        '%s uniques',
+        '%s légendaires',
+        '%s qui réussissent leurs jets de dés',
+        '%s qui ratent leurs jets de dés',
         
         // Divers et inclassables
         '%s divers',
