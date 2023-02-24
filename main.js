@@ -448,9 +448,12 @@ const Greeter = function(){
         '%s sudistes',
         '%s Suisse-Allemands',
         '%s armoricain_e_s',
+        '%s urbain_e_s',
+        '%s périurbain_e_s',
+        {'m': '%s frontaliers','f': '%s frontalières'},
 
         // Médecine
-        `%s appendiculaires`,
+        '%s appendiculaires',
         {'m':'%s cérébraux', 'f':'%s cérébrales'},
         '%s fongiques',
         '%s capillaires',
@@ -551,6 +554,15 @@ const Greeter = function(){
         '%s arboricoles',
         '%s déconstruit_e_s',
         '%s surnaturel_le_s',
+        '%s lisses',
+        {'m': '%s rugueux','f': '%s rugueuses'},
+        {'m': '%s soyeux','f': '%s soyeuses'},
+        {'m': '%s grumeleux','f': '%s grumeleuses'},
+        {'m': '%s boomers','f': '%s boomeuses'},
+        '%s de la gen X',
+        '%s de la gen Y',
+        '%s de la gen Z',
+        '%s Alpha 💪💪💪💪💪💪',
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -697,6 +709,7 @@ const Greeter = function(){
         '%s rangé_e_s dans la cabane',
         '%s vêtu_e_s d\'un splendide tablier',
         '%s en text-to-speech germanique',
+        '%s qui marchent sur le câble de leur Stream Deck',
         
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
