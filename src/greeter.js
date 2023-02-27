@@ -1,5 +1,5 @@
 export default class Greeter {
-    generated_greetings = '';
+    generated_greetings = 'Salutation !';
 
     constructor(config) {
         this.config = config;
