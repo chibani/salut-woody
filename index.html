@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salut les copeaux</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
     <link rel="manifest" href="./site.webmanifest">
 </head>
 <body>
-    <h1>Générateur de salutations</h1>
-    <p>
+    <h1 id="title_main">Générateur de salutations</h1>
+    <p id="txt_welcome">
         Bonjour et bienvenue sur ce générateur de salutations <strong>très</strong> spécifique. <br>
         Il permet de générer du texte pour amuser le luthier-streameur <a href="https://www.twitch.tv/woodylutherie">Woody Lutherie</a>.
     </p>
-    <h2>Votre salutation : </h2>
-    <fieldset>
+    <h2 id="title_secondary">Votre salutation : </h2>
+    <fieldset id="txt_fieldset">
 
         <p id="txt_greetings"></p>
         <p>
@@ -26,7 +27,7 @@
             <button class="pure-button" id="btn_copy">Copier dans le presse-papier</button>
         </p>
     </fieldset>
-    <p>Envie de proposer d'autres "adjectifs" (en plus des <span id="txt_adjectives_counter"></span> déjà enregistrés) ou corriger une haurible faute ? <br>
+    <p id="txt_help">Envie de proposer d'autres "adjectifs" (en plus des <span id="txt_adjectives_counter"></span> déjà enregistrés) ou corriger une haurible faute ? <br>
         Cet "outil" est open-source, et dispo sur <a href="https://github.com/chibani/salut-woody/">Github</a>. <br>
         Sentez-vous libre d'y ouvrir une Pull Request ou une issue :)
     </p>
