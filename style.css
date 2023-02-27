@@ -1,0 +1,24 @@
+body {
+    background-color: #111111;
+    color: #fff7dc;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+a {
+    color: #912bb9;
+    text-decoration: underline;
+}
+
+fieldset {
+    border: 1px solid #912bb9;
+    margin: 1em;
+    padding: 1em;
+}
