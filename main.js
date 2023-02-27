@@ -576,6 +576,8 @@ const Greeter = function(){
         {'m':'%s multi-tonaux', 'f':'%s multi-tonales'},
         '%s doré_e_s finement',
         '%s sculpté_e_s à la main',
+        '%s pyrogravé_e_s',
+        '%s brûlé_e_s',
         
         // Matériaux
         '%s en résine',
@@ -588,6 +590,7 @@ const Greeter = function(){
         '%s iridescents',
         '%s en nacre',
         '%s arboricoles',
+        '%s composites',
         
         // Astrologie
         '%s né_e_s en Bélier',
@@ -787,6 +790,7 @@ const Greeter = function(){
         '%s au taff',
         '%s en congés',
         '%s en vacances',
+        '%s à la gueule de bois',
     ];
     
     const pick_adjective = (word, gender='m') =>
