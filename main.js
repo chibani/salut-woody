@@ -465,7 +465,7 @@ const Greeter = function(){
         '%s névrotiques',
         '%s auriculaires',
         '%s ourlien_ne_s',
-        {'m':'%s subunguéaux','f':'subunguéales'}, // sous les ongles
+        {'m':'%s subunguéaux','f':'%s subunguéales'}, // sous les ongles
         '%s cutané_e_s',
         '%s palpébral_e_s',
         {'m':'%s pileux', 'f':'%s pileuses'},
