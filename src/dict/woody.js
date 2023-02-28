@@ -391,7 +391,7 @@ export default {
         '%s prudent_e_s',
         '%s puéril_le_s',
         '%s radin_e_s',
-        {'m':'%s rancuniers','f':'rancunières'},
+        {'m':'%s rancuniers','f':'%s rancunières'},
         '%s rebelles',
         '%s renfermé_e_s',
         '%s réservé_e_s',
@@ -415,7 +415,7 @@ export default {
         {'m':'%s malicieux', 'f':'%s malicieux'},
         {'m':'%s manipulateurs', 'f':'%s manipulatrices'},
         {'m':'%s menteurs', 'f':'%s menteuses'},
-        {'m':'%s moqueur', 'f':'%s moqueuses'},
+        {'m':'%s moqueurs', 'f':'%s moqueuses'},
         {'m':'%s mystérieux', 'f':'%s mystérieuses'},
         {'m':'%s naïfs', 'f':'%s naïves'},
         {'m':'%s possessifs', 'f':'%s possessives'},
@@ -441,6 +441,9 @@ export default {
         '%s marionnettistes',
         '%s magiques',
         '%s banal_e_s',
+        '%s noctambules',
+        '%s diurnes',
+        '%s nictalopes',
         
         // Géographie
         '%s breton_ne_s',
@@ -450,9 +453,12 @@ export default {
         '%s sudistes',
         '%s Suisse-Allemands',
         '%s armoricain_e_s',
+        '%s urbain_e_s',
+        '%s périurbain_e_s',
+        {'m': '%s frontaliers','f': '%s frontalières'},
 
         // Médecine
-        `%s appendiculaires`,
+        '%s appendiculaires',
         {'m':'%s cérébraux', 'f':'%s cérébrales'},
         '%s fongiques',
         '%s capillaires',
@@ -464,7 +470,7 @@ export default {
         '%s névrotiques',
         '%s auriculaires',
         '%s ourlien_ne_s',
-        {'m':'%s subunguéaux','f':'subunguéales'}, // sous les ongles
+        {'m':'%s subunguéaux','f':'%s subunguéales'}, // sous les ongles
         '%s cutané_e_s',
         '%s palpébral_e_s',
         {'m':'%s pileux', 'f':'%s pileuses'},
@@ -521,6 +527,10 @@ export default {
         '%s rectilignes',
         '%s lyophilisé_e_s',
         '%s déshydraté_e_s',
+        '%s autoalimenté_e_s',
+        '%s en énergie libre',
+        '%s qui échappent aux lois de la physique',
+        '%s pataphysiques',
         
         // Société
         '%s sourcé_e_s en circuit-court-han',
@@ -549,6 +559,15 @@ export default {
         '%s arboricoles',
         '%s déconstruit_e_s',
         '%s surnaturel_le_s',
+        '%s lisses',
+        {'m': '%s rugueux','f': '%s rugueuses'},
+        {'m': '%s soyeux','f': '%s soyeuses'},
+        {'m': '%s grumeleux','f': '%s grumeleuses'},
+        {'m': '%s boomers','f': '%s boomeuses'},
+        '%s de la gen X',
+        '%s de la gen Y',
+        '%s de la gen Z',
+        '%s Alpha 💪💪💪💪💪💪',
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -562,6 +581,8 @@ export default {
         {'m':'%s multi-tonaux', 'f':'%s multi-tonales'},
         '%s doré_e_s finement',
         '%s sculpté_e_s à la main',
+        '%s pyrogravé_e_s',
+        '%s brûlé_e_s',
         
         // Matériaux
         '%s en résine',
@@ -572,6 +593,9 @@ export default {
         '%s en adamantium',
         '%s en plastoc',
         '%s iridescents',
+        '%s en nacre',
+        '%s arboricoles',
+        '%s composites',
         
         // Astrologie
         '%s né_e_s en Bélier',
@@ -633,6 +657,7 @@ export default {
         '%s malté_e_s',
         '%s zytophiles',
         '%s avarié_e_s',
+        '%s universel_le_s',
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
@@ -647,6 +672,8 @@ export default {
         'Hokuto no %s',
         '%s attachiant_e_s',
         '%s précis_es_ pointu_e_s comme les mouettes',
+        '%s en Odorama',
+        '%s enregistré_e_s sur VHS',
         
         // Musique
         '%s tombé_e_s du ciel et dont les étoiles entre-elles ne font que parler',
@@ -666,6 +693,7 @@ export default {
         '%s métalleux',
         '%s punks',
         '%s grégorien_ne_s',
+        '%s qui pogotent dans la fosse',
 
         // Fans des artistes réguliers des playlists de Woody
         '%s fans de Freddo Mercure', // Freddy Mercury
@@ -673,6 +701,7 @@ export default {
         '%s fans de Jacques Noir', // Jack Black
         '%s fans de David Godasse', // Dave Grohl
         '%s fans de Michel fils de Jacques', // Michael Jackson
+        '%s dédicacés par Josh Homme',
         
         // Propres à la chaîne WoodyLutherie ou Twitch
         '%s venu_e_s découvrir les meilleures playlist Spotify du Twitch Game',
@@ -686,6 +715,9 @@ export default {
         '%s abonné_e_s',
         '%s qui perdent leurs ciseaux',
         '%s rangé_e_s dans la cabane',
+        '%s vêtu_e_s d\'un splendide tablier',
+        '%s en text-to-speech germanique',
+        '%s qui marchent sur le câble de leur Stream Deck',
         
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
@@ -693,6 +725,7 @@ export default {
         '%s épatatant_e_s',
         '%s épatatants',
         '%s à la one again',
+        '%s couci-couça',
 
         // Tenues vestimentaires
         '%s en débardeur',
@@ -702,6 +735,35 @@ export default {
         '%s en tongs',
         '%s en Dick Marton\'s',
         '%s en habits du dimanche',
+        '%s ajusté_e_s près du corps',
+        '%s en laine qui grattent ses morts',
+        '%s taille basse',
+        
+        // Classement
+        '%s S-tier',
+        '%s A-tier',
+        '%s B-tier',
+        '%s C-tier',
+        '%s OK-tier',
+        '%s top of the pop',
+        '%s number one',
+        {'m': '%s premiers de la classe', 'f': '%s premières de la classe'},
+        {'m': '%s fabuleux', 'f': '%s fabuleuses'},
+        
+        // JDR
+        {'m':'%s loyaux bons','f': '%s loyales bonnes'},
+        {'m':'%s neutres bons','f': '%s neutres bonnes'},
+        {'m':'%s chaotiques bons','f': '%s chaotiques bonnes'},
+        {'m':'%s loyaux neutres','f': '%s loyales neutres'},
+        '%s neutres (neutres)',
+        {'m':'%s chaotiques neutres','f': '%s chaotiques neutres'},
+        {'m':'%s loyaux mauvais','f': '%s loyales mauvaises'},
+        {'m':'%s neutres mauvais','f': '%s neutres mauvaises'},
+        {'m':'%s chaotiques mauvais','f': '%s chaotiques mauvaises'},
+        '%s uniques',
+        '%s légendaires',
+        '%s qui réussissent leurs jets de dés',
+        '%s qui ratent leurs jets de dés',
         
         // Divers et inclassables
         '%s divers',
@@ -718,14 +780,21 @@ export default {
         '%s random',
         '%s encore sous blister',
         '%s qui branchent leurs prises USB Type A dans le bon sens du premier coup',
-
         '%s qui dorment au fond de la salle à côté du radiateur',
         '%s dual-core',
         '%s sans fil',
         '%s full-HD',
         '%s 4K RTX',
+        '%s cathodiques',
+        '%s en Dolby surround',
         '%s multijoueurs',
+        '%s virtuel_le_s',
+        '%s en réalité augmentée',
+        '%s collectors',
         '%s en édition limitée',
-        '%s dédicacés par Josh Homme'
+        '%s au taff',
+        '%s en congés',
+        '%s en vacances',
+        '%s à la gueule de bois',
     ]
 }
