@@ -1,4 +1,3 @@
 node_modules/
 dist/
 test/bundle.test.js
-test/greeter.test.js
