@@ -1,6 +1,7 @@
 import Greeter from './greeter.js';
 import config from './dict/woody.js';
 import {gsap, ScrollTrigger} from "gsap/all.js";
+import css from "./assets/css/style.css";
 
 const greeter = new Greeter(config);
 
