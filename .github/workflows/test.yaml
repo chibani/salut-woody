@@ -24,7 +24,3 @@ jobs:
          npm run build --if-present
          npm run lint
          npm test
-      - name: Upload artifacts
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: ./dist
