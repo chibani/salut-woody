@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #111111;
+    color: #fff7dc;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #912bb9;
+    text-decoration: underline;
+}
+
+fieldset {
+    border: 1px solid #912bb9;
+    margin: 1em;
+    padding: 1em;
+}
+
+.content {
+    flex: 1 0 auto;
+    line-height: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+footer {
+    flex-shrink: 0;
+    margin: 0;
+    width: 100%;
+}

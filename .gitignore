@@ -1,0 +1,4 @@
+node_modules/
+dist/
+test/bundle.test.js
+node_modules

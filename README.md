@@ -8,8 +8,8 @@ L'outil proposé est un simple générateur de texte à trou, basé sur le templ
 
 
 ## Les qualificatifs  
-Ils sont "stockés" dans une constante, dans le script `main.js` (à la racine du projet).  
-La liste des qualificatifs est assez longue, plus de 600 éléments.  
+Ils sont "stockés" dans une constante, dans le script `src/dict/woody.js`.  
+La liste des qualificatifs est assez longue, plus de 700 éléments, mais ne vous privew pas d'en rajouter.  
 
 ### Format des qualificatifs et accord en genre  
 Parce que le Français est une langue genrée (quelle chance ont les anglophones... ça simplifie tellement le code), j'ai adopté la convention de codage suivante :  

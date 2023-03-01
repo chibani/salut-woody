@@ -1,0 +1,36 @@
+{
+  "name": "salut-woody",
+  "version": "0.0.1",
+  "description": "outil de salutations",
+  "main": "main.js",
+  "private": true,
+  "dependencies": {
+    "gsap": "^3.11.4"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "eslint": "^8.35.0",
+    "favicons-webpack-plugin": "^6.0.0",
+    "html-webpack-injector": "^1.1.4",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.4.2",
+    "mini-css-extract-plugin": "^2.7.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "build:test": "webpack --config test/webpack.test.config.js",
+    "test": "npm run build:test && jest test/bundle.test.js",
+    "lint": "eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chibani/salut-woody.git"
+  },
+  "author": "chibani",
+  "bugs": {
+    "url": "https://github.com/chibani/salut-woody/issues"
+  },
+  "homepage": "https://github.com/chibani/salut-woody#readme"
+}
