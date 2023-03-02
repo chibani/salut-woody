@@ -15,9 +15,20 @@ const greeter = new Greeter({
 });
 
 test('Should gender correctly', ()=>{
-    expect(greeter.gender_swap('magique')).toBe('magique');
+    expect(greeter.gender_swap('magiques')).toBe('magiques');
+    expect(greeter.gender_swap('magiques', 'f')).toBe('magiques');
+    expect(greeter.gender_swap('magiques', 'm')).toBe('magiques');
     expect(greeter.gender_swap('joli_e_s', 'f')).toBe('jolies');
     expect(greeter.gender_swap('joli_e_s', 'm')).toBe('jolis');
+    expect(greeter.gender_swap('libéré_e_s délivré_e_s', 'f')).toBe('libérées délivrées');
+    expect(greeter.gender_swap('libéré_e_s délivré_e_s', 'm')).toBe('libérés délivrés');
+});
+
+test('Should adjectivize correctly', ()=>{
+    expect(greeter.adjectivize('choses','%s vrai_e_s', 'f')).toBe('choses vraies');
+    expect(greeter.adjectivize('trucs', '%s vrai_e_s', 'm')).toBe('trucs vrais');
+    expect(greeter.adjectivize('choses',{'m':'%s ligneux', 'f': '%s ligneuses'}, 'f')).toBe('choses ligneuses');
+    expect(greeter.adjectivize('trucs', {'m':'%s ligneux', 'f': '%s ligneuses'}, 'm')).toBe('trucs ligneux');
 });
 
 test('Should generate the greeting properly', ()=>{

@@ -8,6 +8,10 @@ export default class Greeter {
     pick_adjective = (word, gender = 'm') => {
         const adj = this.config.adjectives[Math.floor(Math.random() * this.config.adjectives.length)];
 
+        return this.adjectivize(word, adj, gender);
+    }
+
+    adjectivize = (word, adj, gender) => {
         if (typeof adj === 'string') {
             return this.gender_swap(adj, gender).replace('%s', word);
         } else {
@@ -19,7 +23,7 @@ export default class Greeter {
         if (gender == 'f') {
             return adj.replaceAll('_', '');
         } else {
-            return adj.replace(/_[^_]+_/, '');
+            return adj.replaceAll(/_[^_]+_/g, '');
         }
     };
 

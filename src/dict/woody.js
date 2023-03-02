@@ -444,6 +444,18 @@ export default {
         '%s noctambules',
         '%s diurnes',
         '%s nictalopes',
+        '%s audiophiles',
+        '%s inébranlables',
+        '%s ébaubi_e_s',
+        '%s anadyomènes', // Qui sort de l'eau
+        '%s callipyges', // Qui a des belles fesses
+        '%s émerillonné_e_s', // Qui prend une humeur joyeuse
+        '%s capricant_e_s', // au comportement saccadé
+        '%s nonpareil_le_s',
+        '%s valétudinaires',// à la santé fragile
+        '%s sybaritiques',// Qui cherche des plaisirs raffinés
+        '%s recru_e_s',// Qui s'épuise
+        '%s suaves',
         
         // Géographie
         '%s breton_ne_s',
@@ -456,6 +468,8 @@ export default {
         '%s urbain_e_s',
         '%s périurbain_e_s',
         {'m': '%s frontaliers','f': '%s frontalières'},
+        '%s nordiques',
+        '%s à l\'ouest',
 
         // Médecine
         '%s appendiculaires',
@@ -499,10 +513,11 @@ export default {
         '%s en nuance de gris',
         '%s RGB',
         
-        // Physique / Chimie
+        // Maths / Physique / Chimie
         '%s non-newtonnien_ne_s',
         '%s asymptotiques',
         '%s électromagnétiques',
+        '%s magnétiques',
         '%s supersoniques',
         '%s supraluminiques',
         '%s quantiques',
@@ -531,6 +546,17 @@ export default {
         '%s en énergie libre',
         '%s qui échappent aux lois de la physique',
         '%s pataphysiques',
+        '%s dilaté_e_s',
+        '%s contracté_e_s',
+        '%s incontrôlables',
+        '%s isostatiques',
+        '%s péremptoires',
+        '%s perpendiculaires',
+        '%s adjacent_e_s',
+        '%s triphasé_e_s',
+        '%s déphasé_e_s',
+        '%s oblong_ue_s',
+        '%s liminaires',
         
         // Société
         '%s sourcé_e_s en circuit-court-han',
@@ -568,6 +594,21 @@ export default {
         '%s de la gen Y',
         '%s de la gen Z',
         '%s Alpha 💪💪💪💪💪💪',
+        'crypto-%s',
+        '%s en NFT',
+        '%s en DLC',
+        'camarades %s ✊',
+        '%s en rang deux par deux',
+        '%s qui mettent les coudes sur la table',
+        '%s addicts',
+        '%s qui dorment au fond de la salle à côté du radiateur',
+        '%s au taff',
+        '%s en congés',
+        '%s en vacances',
+        '%s en réunion',
+        '%s en pleine gueule de bois',
+        '%s CSP++++',
+        '%s qui flexent sur LinkedIn',
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -593,9 +634,14 @@ export default {
         '%s en adamantium',
         '%s en plastoc',
         '%s iridescents',
-        '%s en nacre',
+        '%s de nacre',
         '%s arboricoles',
         '%s composites',
+        '%s polymérisé_e_s',
+        {'m': '%s poussiéreux', 'f': '%s poussiéreuses'},
+        '%s pétrogènes', // Nés de la pierre 
+        '%s xylogènes', 
+        {'m':'%s ligneux', 'f': '%s ligneuses'},
         
         // Astrologie
         '%s né_e_s en Bélier',
@@ -622,6 +668,8 @@ export default {
         '%s ascendant_e_s Capricorne',
         '%s ascendant_e_s Verseau',
         '%s ascendant_e_s Poisson',
+        '%s lunaires',
+        '%s qui ont Mercure en rétrograde',
         
         // Cuisine / Nourriture
         '%s au piment d\'Espelette',
@@ -636,6 +684,7 @@ export default {
         'accras de %s',
         'cheesecakes de %s',
         'galettes de %s',
+        'compotées de %s',
         '%s béchamel',
         '%s saisi_e_s à la plancha',
         '%s cuit_e_s au feu de bois',
@@ -658,24 +707,32 @@ export default {
         '%s zytophiles',
         '%s avarié_e_s',
         '%s universel_le_s',
+        '%s fermenté_e_s',
+        '%s houblonné_e_s',
+        '%s caféiné_e_s',
+        '%s décaféiné_e_s',
+        '%s melliflu_e_s',
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
         '%s qui croisent les effluves',
         '%s qui ne croisent pas les effluves',
-        '%s au shaker, pas à la cuillère',
+        '%s au shaker pas à la cuillère',
         '%s limite nervous breakdown',
         '%s éparpillé_e_s façon puzzle',
+        '%s libéréééé_e_s délivréééé_e_s',
         
         // Pop-Culture
         '%s qui ont eu leur prénom dans le générique du Club Dorothée',
+        '%s sans pitié pour les croissants',
         'Hokuto no %s',
         '%s attachiant_e_s',
         '%s précis_es_ pointu_e_s comme les mouettes',
         '%s en Odorama',
         '%s enregistré_e_s sur VHS',
+        '%s adeptes du vidéostore',
         
-        // Musique
+        // Musique / Son
         '%s tombé_e_s du ciel et dont les étoiles entre-elles ne font que parler',
         '%s à qui on a mis la fièvre pendant des heures',
         '%s trombonistes',
@@ -694,6 +751,10 @@ export default {
         '%s punks',
         '%s grégorien_ne_s',
         '%s qui pogotent dans la fosse',
+        '%s saturé_e_s',
+        '%s préamplifié_e_s',
+        '%s étalonné_e_s',
+        '%s tintinnabulant_e_s',
 
         // Fans des artistes réguliers des playlists de Woody
         '%s fans de Freddo Mercure', // Freddy Mercury
@@ -718,6 +779,7 @@ export default {
         '%s vêtu_e_s d\'un splendide tablier',
         '%s en text-to-speech germanique',
         '%s qui marchent sur le câble de leur Stream Deck',
+        '%s mute',
         
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
@@ -726,6 +788,8 @@ export default {
         '%s épatatants',
         '%s à la one again',
         '%s couci-couça',
+        '%s à côté de leurs pompes',
+        '%s vieilli_e_s en fût de chêne',
 
         // Tenues vestimentaires
         '%s en débardeur',
@@ -764,37 +828,32 @@ export default {
         '%s légendaires',
         '%s qui réussissent leurs jets de dés',
         '%s qui ratent leurs jets de dés',
-        
-        // Divers et inclassables
-        '%s divers',
-        '%s varié_e_s',
-        'camarades %s ✊',
-        '%s pirates',
-        '%s en sueur',
-        '%s bien rangé_e_s',
-        '%s mal rangé_e_s',
-        '%s addicts',
-        '%s péremptoires',
-        '%s perpendiculaires',
+
+        // Informatique et JV
+        '%s multijoueurs',
+        '%s virtuel_le_s',
+        '%s en réalité augmentée',
+        '%s shiny',
         '%s généré_e_s par ChatGPT',
-        '%s random',
-        '%s encore sous blister',
-        '%s qui branchent leurs prises USB Type A dans le bon sens du premier coup',
-        '%s qui dorment au fond de la salle à côté du radiateur',
         '%s dual-core',
         '%s sans fil',
         '%s full-HD',
         '%s 4K RTX',
         '%s cathodiques',
         '%s en Dolby surround',
-        '%s multijoueurs',
-        '%s virtuel_le_s',
-        '%s en réalité augmentée',
+        '%s qui branchent leurs prises USB Type A dans le bon sens du premier coup',
+        
+        // Divers et inclassables
+        '%s divers',
+        '%s varié_e_s',
+        '%s pirates',
+        '%s en sueur',
+        '%s bien rangé_e_s',
+        '%s mal rangé_e_s',
+        '%s random',
+        '%s encore sous blister',
+        '%s spatialisées',
         '%s collectors',
         '%s en édition limitée',
-        '%s au taff',
-        '%s en congés',
-        '%s en vacances',
-        '%s à la gueule de bois',
     ]
 }
