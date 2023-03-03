@@ -624,6 +624,7 @@ export default {
         '%s sculpté_e_s à la main',
         '%s pyrogravé_e_s',
         '%s brûlé_e_s',
+        '%s finement ciselé_e_s',
         
         // Matériaux
         '%s en résine',
@@ -741,13 +742,13 @@ export default {
         {'m':'%s batteurs','f':'%s batteuses'},
         '%s claviéristes',
         '%s xylophonistes',
-        '%s chanteurs',
+        {'m':'%s chanteurs', 'f': '%s chanteuses'},
         '%s choristes',
         '%s désaccordé_e_s',
         '%s en ré-mineur',
         '%s en fa-dièse',
-        '%s chanteurs de K-pop',
-        '%s métalleux',
+        {'m': '%s chanteurs de K-pop', 'f': '%s chanteuses de K-pop'},
+        {'m': '%s métalleux', 'f': '%s métalleuses'},
         '%s punks',
         '%s grégorien_ne_s',
         '%s qui pogotent dans la fosse',
@@ -755,6 +756,9 @@ export default {
         '%s préamplifié_e_s',
         '%s étalonné_e_s',
         '%s tintinnabulant_e_s',
+        '%s en full reverb-reverb-reverb',
+        '%s en plein headbang',
+        '%s qui mettent les potards à 11',
 
         // Fans des artistes réguliers des playlists de Woody
         '%s fans de Freddo Mercure', // Freddy Mercury
@@ -780,6 +784,7 @@ export default {
         '%s en text-to-speech germanique',
         '%s qui marchent sur le câble de leur Stream Deck',
         '%s mute',
+        {'m': '%s lurkers', 'f': 'lurkeuses'},
         
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
