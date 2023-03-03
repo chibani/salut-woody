@@ -37,7 +37,7 @@ export default {
         'gentil_le_s %s',
         'grand_e_s %s',
         '%s joli_e_s',
-        '%s joviaux',
+        {'m':'%s joviaux', 'f':'%s joviales'},
         '%s magnifiques',
         {'m':'%s merveilleux', 'f':'%s merveilleuses'},
         '%s mignon_e_s',
@@ -335,7 +335,7 @@ export default {
         '%s cyniques',
         '%s débiles',
         '%s défaitistes',
-        '%s dépensier_e_s',
+        {'m': '%s dépensiers', 'f': '%s dépensières'},
         '%s désagréables',
         '%s désobéissant_e_s',
         '%s désordonné_e_s',
@@ -609,6 +609,7 @@ export default {
         '%s en pleine gueule de bois',
         '%s CSP++++',
         '%s qui flexent sur LinkedIn',
+        '%s qui mettent le lait avant les céréales',
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
