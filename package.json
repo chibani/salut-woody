@@ -4,6 +4,9 @@
   "description": "outil de salutations",
   "main": "main.js",
   "private": true,
+  "engines":{
+    "node": ">=18"
+  },
   "dependencies": {
     "gsap": "^3.11.4"
   },
