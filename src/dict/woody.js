@@ -456,6 +456,7 @@ export default {
         '%s sybaritiques',// Qui cherche des plaisirs raffinés
         '%s recru_e_s',// Qui s'épuise
         '%s suaves',
+        {'m': '%s expéditifs', 'f': '%s expéditives'},
         
         // Géographie
         '%s breton_ne_s',
@@ -470,6 +471,7 @@ export default {
         {'m': '%s frontaliers','f': '%s frontalières'},
         '%s nordiques',
         '%s à l\'ouest',
+        '%s du bout du monde',
 
         // Médecine
         '%s appendiculaires',
@@ -532,6 +534,7 @@ export default {
         '%s photoélectriques',
         '%s atomiques',
         '%s corpusculaires',
+        '%s ondulatoires',
         '%s probabilistes',
         '%s conceptuel_le_s',
         '%s ionisé_e_s',
@@ -557,9 +560,12 @@ export default {
         '%s déphasé_e_s',
         '%s oblong_ue_s',
         '%s liminaires',
+        '%s photosynthétiques',
+        '%s impalpables',
         
         // Société
         '%s sourcé_e_s en circuit-court-han',
+        '%s mondialisé_e_s',
         '%s coupé_e_s décalé_e_s',
         '%s qui sachent',
         '%s complotistes',
@@ -610,6 +616,7 @@ export default {
         '%s CSP++++',
         '%s qui flexent sur LinkedIn',
         '%s qui mettent le lait avant les céréales',
+        '%s instruit_e_s',
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -626,6 +633,7 @@ export default {
         '%s pyrogravé_e_s',
         '%s brûlé_e_s',
         '%s finement ciselé_e_s',
+        '%s peint_e_s à la main',
         
         // Matériaux
         '%s en résine',
@@ -714,6 +722,13 @@ export default {
         '%s caféiné_e_s',
         '%s décaféiné_e_s',
         '%s melliflu_e_s',
+        '%s fumé_e_s',
+        '%s roti_e_s',
+        '%s sucré_e_s',
+        '%s salé_e_s',
+        '%s amères',
+        '%s acides',
+        '%s umamis',
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
@@ -745,6 +760,7 @@ export default {
         '%s xylophonistes',
         {'m':'%s chanteurs', 'f': '%s chanteuses'},
         '%s choristes',
+        '%s solistes',
         '%s désaccordé_e_s',
         '%s en ré-mineur',
         '%s en fa-dièse',
@@ -834,6 +850,9 @@ export default {
         '%s légendaires',
         '%s qui réussissent leurs jets de dés',
         '%s qui ratent leurs jets de dés',
+        '%s décaédriques', // D10
+        '%s icosaédriques', // D12
+        '%s dodécaédriques', // D20
 
         // Informatique et JV
         '%s multijoueurs',
