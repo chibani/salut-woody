@@ -5,10 +5,18 @@ export default class Greeter {
         this.config = config;
     }
 
-    pick_adjective = (word, gender = 'm') => {
-        const adj = this.config.adjectives[Math.floor(Math.random() * this.config.adjectives.length)];
+    pick_adjective = (position=0, word='', gender='m') => {
+        const adj = this.config.adjectives.at(position);
 
         return this.adjectivize(word, adj, gender);
+    }
+
+    pick_random_adjective = (word, gender = 'm') => {
+        return this.pick_adjective(Math.floor(Math.random() * this.config.adjectives.length), word, gender);
+    }
+
+    pick_all_adjectives = (word, gender = 'm') => {
+        return this.config.adjectives.map( adj => this.adjectivize(word, adj, gender) );
     }
 
     adjectivize = (word, adj, gender) => {
@@ -19,7 +27,8 @@ export default class Greeter {
         }
     }
 
-     gender_swap = (adj, gender) => {
+    
+    gender_swap = (adj, gender) => {
         if (gender == 'f') {
             return adj.replaceAll('_', '');
         } else {
@@ -28,7 +37,7 @@ export default class Greeter {
     };
 
     refresh_greetings = function () {
-        this.generated_greetings = this.config.generate_greetings(this.pick_adjective);
+        this.generated_greetings = this.config.generate_greetings(this.pick_random_adjective);
     };
 
     copy_to_clipboard = () => {

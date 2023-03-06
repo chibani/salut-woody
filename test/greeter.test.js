@@ -11,7 +11,12 @@ const greeter = new Greeter({
 
     "adjectives" : [
         '%s magiques',
+        {'m': '%s derniers', 'f': '%s dernières'},
     ]
+});
+
+test('Should pick the last adjective', ()=>{
+    expect(greeter.pick_adjective(-1)).toBe(' derniers');
 });
 
 test('Should gender correctly', ()=>{
@@ -31,7 +36,15 @@ test('Should adjectivize correctly', ()=>{
     expect(greeter.adjectivize('trucs', {'m':'%s ligneux', 'f': '%s ligneuses'}, 'm')).toBe('trucs ligneux');
 });
 
+test('Should adjectivize with all adjectives', ()=>{
+    expect(greeter.pick_all_adjectives('échardes', 'f')).toStrictEqual([
+        'échardes magiques',
+        'échardes dernières'
+    ]);
+});
+
 test('Should generate the greeting properly', ()=>{
+    greeter.config.adjectives = ['%s magiques'];
     greeter.refresh_greetings();
     expect(greeter.get_generated_greetings()).toBe('On test les copeaux magiques');
 });
