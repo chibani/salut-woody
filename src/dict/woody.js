@@ -472,6 +472,7 @@ export default {
         '%s nordiques',
         '%s à l\'ouest',
         '%s du bout du monde',
+        '%s Marseillais_e_s',
 
         // Médecine
         '%s appendiculaires',
@@ -634,6 +635,9 @@ export default {
         '%s brûlé_e_s',
         '%s finement ciselé_e_s',
         '%s peint_e_s à la main',
+        '%s sur table',
+        '%s sous table',
+        '%s prépercé_e_s',
         
         // Matériaux
         '%s en résine',
@@ -802,6 +806,7 @@ export default {
         '%s qui marchent sur le câble de leur Stream Deck',
         '%s mute',
         {'m': '%s lurkers', 'f': 'lurkeuses'},
+        '%s qui marseillent',
         
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
