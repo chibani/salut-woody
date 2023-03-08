@@ -267,6 +267,8 @@ export default {
         '%s calmes',
         '%s émouvant_e_s',
         '%s empathiques',
+        '%s enchanté_e_s',
+        '%s désenchanté_e_s',
         {'m':'%s enchanteurs', 'f':'%s enchanteuses'},
         '%s extatiques',
         {'m':'fiers %s', 'f':'fières %s'},
@@ -457,14 +459,24 @@ export default {
         '%s recru_e_s',// Qui s'épuise
         '%s suaves',
         {'m': '%s expéditifs', 'f': '%s expéditives'},
-        
+        {'m': '%s frileux', 'm': '%s frileuses'},
+        '%s photogéniques',
+        '%s improbables',
+        '%s déboussolé_e_s',
+        '%s étonnant_e_s',
+        '%s étonné_e_s',
+
+        // Expressions Quebecoises
+        {'m': '%s vlimeux', 'f': '%s vlimeuses'}, // rusé et malicieux
+        '%s usé_e_s au coton',// Usés à la corde
+
         // Géographie
-        '%s breton_ne_s',
+        '%s breton_ne_s (BZH !)',
         '%s des Outre-mers',
         '%s expatrié_e_s',
         '%s zadistes',
         '%s sudistes',
-        '%s Suisse-Allemands',
+        '%s Suisse-Allemand_e_s',
         '%s armoricain_e_s',
         '%s urbain_e_s',
         '%s périurbain_e_s',
@@ -473,6 +485,7 @@ export default {
         '%s à l\'ouest',
         '%s du bout du monde',
         '%s Marseillais_e_s',
+        '%s sibérien_ne_s',
 
         // Médecine
         '%s appendiculaires',
@@ -532,6 +545,7 @@ export default {
         '%s supramoléculaires',
         '%s équitables',
         '%s stratosphériques',
+        '%s piezoélectriques',
         '%s photoélectriques',
         '%s atomiques',
         '%s corpusculaires',
@@ -563,6 +577,9 @@ export default {
         '%s liminaires',
         '%s photosynthétiques',
         '%s impalpables',
+        '%s génétiquement modifié_e_s',
+        '%s perfluoré_e_s',
+        '%s génotoxiques',
         
         // Société
         '%s sourcé_e_s en circuit-court-han',
@@ -613,11 +630,21 @@ export default {
         '%s en congés',
         '%s en vacances',
         '%s en réunion',
+        '%s grèvistes',
         '%s en pleine gueule de bois',
         '%s CSP++++',
         '%s qui flexent sur LinkedIn',
         '%s qui mettent le lait avant les céréales',
         '%s instruit_e_s',
+        '%s sapé_e_s comme jamais',
+        '%s tatoué_e_s',
+        '%s ludifié_e_s',
+        '%s sériephiles',
+        '%s germanophones',
+        '%s socialement distancié_e_s',
+        '%s démonétisé_e_s',
+        '%s rentables',
+        '%s dystopiques',
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -733,6 +760,7 @@ export default {
         '%s amères',
         '%s acides',
         '%s umamis',
+        '%s entruché_e_s', // qui s'étouffent en avalant de travers
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
@@ -869,9 +897,16 @@ export default {
         '%s sans fil',
         '%s full-HD',
         '%s 4K RTX',
+        '%s en low-poly',
         '%s cathodiques',
         '%s en Dolby surround',
         '%s qui branchent leurs prises USB Type A dans le bon sens du premier coup',
+
+        // Sport
+        '%s culturistes',
+        '%s véliplanchistes',
+        '%s musclé_e_s',
+
         
         // Divers et inclassables
         '%s divers',
@@ -885,5 +920,6 @@ export default {
         '%s spatialisées',
         '%s collectors',
         '%s en édition limitée',
+        '%s publicitaires',
     ]
 }
