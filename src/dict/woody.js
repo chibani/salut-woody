@@ -459,7 +459,7 @@ export default {
         '%s recru_e_s',// Qui s'épuise
         '%s suaves',
         {'m': '%s expéditifs', 'f': '%s expéditives'},
-        {'m': '%s frileux', 'm': '%s frileuses'},
+        {'m': '%s frileux', 'f': '%s frileuses'},
         '%s photogéniques',
         '%s improbables',
         '%s déboussolé_e_s',
