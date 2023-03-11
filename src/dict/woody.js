@@ -140,6 +140,7 @@ export default {
         '%s exceptionnel_le_s',
         '%s excité_e_s',
         '%s exemplaires',
+        '%s exquis_es_',
         {'m':'%s festifs', 'f':'%s festives'},
         '%s fiables',
         '%s fidèles',
@@ -465,6 +466,9 @@ export default {
         '%s déboussolé_e_s',
         '%s étonnant_e_s',
         '%s étonné_e_s',
+        '%s neurasthéniques',
+        '%s luxuriant_e_s',
+        {'m': '%s frais','f': 'fraîches'},
 
         // Expressions Quebecoises
         {'m': '%s vlimeux', 'f': '%s vlimeuses'}, // rusé et malicieux
@@ -484,13 +488,14 @@ export default {
         '%s nordiques',
         '%s à l\'ouest',
         '%s du bout du monde',
-        '%s Marseillais_e_s',
+        '%s Marseillai_se_s',
         '%s sibérien_ne_s',
 
         // Médecine
         '%s appendiculaires',
         {'m':'%s cérébraux', 'f':'%s cérébrales'},
         '%s fongiques',
+        '%s mycosé_e_s',
         '%s capillaires',
         '%s claviculaires',
         {'m':'%s convulsifs', 'f':'%s convulsives'},
@@ -512,6 +517,7 @@ export default {
         '%s vésiculaires',
         '%s ventriloques',
         '%s flatulent_e_s',
+        '%s somnambules',
 
         // Dimensions
         '%s titanesques',
@@ -645,6 +651,7 @@ export default {
         '%s démonétisé_e_s',
         '%s rentables',
         '%s dystopiques',
+        '%s satanistes',
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -683,6 +690,9 @@ export default {
         '%s pétrogènes', // Nés de la pierre 
         '%s xylogènes', 
         {'m':'%s ligneux', 'f': '%s ligneuses'},
+        {'m':'%s duveteux', 'f': '%s duveteuses'},
+        '%s en pilou-pilou',
+        '%s thurifères',
         
         // Astrologie
         '%s né_e_s en Bélier',
@@ -808,6 +818,8 @@ export default {
         '%s en full reverb-reverb-reverb',
         '%s en plein headbang',
         '%s qui mettent les potards à 11',
+        '%s disque d\'or',
+        '%s disque de platine',
 
         // Fans des artistes réguliers des playlists de Woody
         '%s fans de Freddo Mercure', // Freddy Mercury
@@ -835,6 +847,7 @@ export default {
         '%s mute',
         {'m': '%s lurkers', 'f': 'lurkeuses'},
         '%s qui marseillent',
+        '%s sponsorisé_e_s',
         
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
