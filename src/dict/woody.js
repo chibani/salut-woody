@@ -468,7 +468,10 @@ export default {
         '%s étonné_e_s',
         '%s neurasthéniques',
         '%s luxuriant_e_s',
-        {'m': '%s frais','f': 'fraîches'},
+        {'m': '%s frais','f': '%s fraîches'},
+        '%s ignorant_e_s',
+        '%s ignares',
+        '%s éclairé_e_s',
 
         // Expressions Quebecoises
         {'m': '%s vlimeux', 'f': '%s vlimeuses'}, // rusé et malicieux
