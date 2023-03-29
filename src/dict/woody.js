@@ -472,6 +472,22 @@ export default {
         '%s ignorant_e_s',
         '%s ignares',
         '%s éclairé_e_s',
+        '%s dilatoires',
+        {'m':'%s digressifs', 'f':'%s digressives'},
+        '%s atténué_e_s',
+        '%s exténué_e_s',
+        '%s impudent_e_s',
+        '%s effronté_e_s',
+        '%s amphigouriques', // Obscurs, confus
+        '%s sibyllin_e_s', // enigmatiques
+        '%s tarabiscoté_e_s',
+        '%s comminatoires', // menaçant
+        '%s croquignolesques',
+        '%s dithyrambiques',
+        '%s flavascent_e_s', // De couleur jaune - or
+        '%s immarcescibles', // qui ne peut se flétrir
+        '%s infranglibles', // incassable
+        '%s irréfragables', // incontestable
 
         // Expressions Quebecoises
         {'m': '%s vlimeux', 'f': '%s vlimeuses'}, // rusé et malicieux
@@ -654,7 +670,9 @@ export default {
         '%s démonétisé_e_s',
         '%s rentables',
         '%s dystopiques',
+        '%s utopistes',
         '%s satanistes',
+        '%s défiscalisé_e_s',
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -774,6 +792,7 @@ export default {
         '%s acides',
         '%s umamis',
         '%s entruché_e_s', // qui s'étouffent en avalant de travers
+        '%s méliflu_e_s',
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
