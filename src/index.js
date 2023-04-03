@@ -5,6 +5,7 @@ import "./assets/css/style.css";
 
 const greeter = new Greeter(config);
 
+
 const update_greetings = () =>{
     greeter.refresh_greetings();
     document.getElementById("txt_greetings").innerText = greeter.get_generated_greetings();

@@ -3,7 +3,12 @@ export default {
     // Template de salutation
     "generate_greetings": (pick_adjective) =>
     {
-        return `Salut les ${pick_adjective('copeaux')}, les ${pick_adjective('échardes', 'f')} et les ${pick_adjective('sciures', 'f')}`
+        // On april first, the returned string will be different
+        if (new Date().getMonth() == 3 && new Date().getDate() == 1) {
+            return `Salut les ${pick_adjective('algues','f')}, les ${pick_adjective('anguilles', 'f')} et les ${pick_adjective('poissons')}`;
+        }else{
+            return `Salut les ${pick_adjective('copeaux')}, les ${pick_adjective('échardes', 'f')} et les ${pick_adjective('sciures', 'f')}`;
+        }
     },
 
     "adjectives" : [

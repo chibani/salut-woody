@@ -1,4 +1,4 @@
-import Greeter from "../src/greeter.js";
+import Greeter from "../../src/greeter.js";
 
 // console.log(Greeter);//FIXME
 
