@@ -315,6 +315,7 @@ export default {
         '%s sévères',
         '%s sincères',
         '%s snobs',
+        {'m': '%s obséquieux', 'f': '%s obséquieuses'},
         '%s aigri_e_s',
         '%s aimables',
         '%s arrivistes',
@@ -442,6 +443,7 @@ export default {
         '%s mentalistes',
         '%s illusionistes',
         '%s marionnettistes',
+        {'m': '%s prestidigitateurs', 'f': '%s prestidigitatrices'},
         '%s magiques',
         '%s banal_e_s',
         '%s noctambules',
@@ -482,12 +484,14 @@ export default {
         '%s sibyllin_e_s', // enigmatiques
         '%s tarabiscoté_e_s',
         '%s comminatoires', // menaçant
+        '%s pusillanimes',// Timide
         '%s croquignolesques',
         '%s dithyrambiques',
         '%s flavascent_e_s', // De couleur jaune - or
         '%s immarcescibles', // qui ne peut se flétrir
         '%s infranglibles', // incassable
         '%s irréfragables', // incontestable
+        '%s superfétatoires',// qui s'ajoute inutilement à un autre, qui est en trop
 
         // Expressions Quebecoises
         {'m': '%s vlimeux', 'f': '%s vlimeuses'}, // rusé et malicieux
@@ -510,6 +514,7 @@ export default {
         '%s Marseillai_se_s',
         '%s sibérien_ne_s',
         '%s géolocalisé_e_s',
+        {'m': '%s septentrionaux', 'f': '%s septentrionales'},
 
         // Médecine
         '%s appendiculaires',
@@ -539,6 +544,7 @@ export default {
         '%s flatulent_e_s',
         '%s somnambules',
         '%s symbiotiques',
+        '%s somatiques',
 
         // Dimensions
         '%s titanesques',
@@ -611,6 +617,7 @@ export default {
         '%s collant_e_s',
         '%s fluides',
         '%s hyperfluides',
+        '%s thermoretractables',
         
         // Société
         '%s sourcé_e_s en circuit-court-han',
@@ -680,6 +687,7 @@ export default {
         '%s satanistes',
         '%s défiscalisé_e_s',
         {'m':'%s inclusifs', 'f': '%s inclusives'},
+        '%s qui discudancent', // Message à Caractère Informatif
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -700,6 +708,7 @@ export default {
         '%s sur table',
         '%s sous table',
         '%s prépercé_e_s',
+        '%s thermoformé_e_s',
         
         // Matériaux
         '%s en résine',
@@ -800,6 +809,8 @@ export default {
         '%s umamis',
         '%s entruché_e_s', // qui s'étouffent en avalant de travers
         '%s méliflu_e_s',
+        {'m': '%s nidoreux','f': '%s nidoreuses'}, // qui dégagent un gout d'oeuf pourri
+        '%s sapides',// Qui a du goût, de la saveur
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
@@ -821,6 +832,8 @@ export default {
         '%s adeptes du vidéostore',
         '%s cybernetiques',
         '%s qui veulent mes vêtements, mes bottes et ma moto',
+        '%s qui pratiquent le free dance',
+        '%s disco',
         
         // Musique / Son
         '%s tombé_e_s du ciel et dont les étoiles entre-elles ne font que parler',
