@@ -509,6 +509,7 @@ export default {
         '%s du bout du monde',
         '%s Marseillai_se_s',
         '%s sibérien_ne_s',
+        '%s géolocalisé_e_s',
 
         // Médecine
         '%s appendiculaires',
@@ -537,12 +538,14 @@ export default {
         '%s ventriloques',
         '%s flatulent_e_s',
         '%s somnambules',
+        '%s symbiotiques',
 
         // Dimensions
         '%s titanesques',
         '%s microscopiques',
         '%s nanoscopiques',
         '%s gigantesques',
+        '%s gargantuesques',
 
         // Apparence
         '%s barbu_e_s',
@@ -605,6 +608,9 @@ export default {
         '%s génétiquement modifié_e_s',
         '%s perfluoré_e_s',
         '%s génotoxiques',
+        '%s collant_e_s',
+        '%s fluides',
+        '%s hyperfluides',
         
         // Société
         '%s sourcé_e_s en circuit-court-han',
@@ -673,6 +679,7 @@ export default {
         '%s utopistes',
         '%s satanistes',
         '%s défiscalisé_e_s',
+        {'m':'%s inclusifs', 'f': '%s inclusives'},
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -812,6 +819,8 @@ export default {
         '%s en Odorama',
         '%s enregistré_e_s sur VHS',
         '%s adeptes du vidéostore',
+        '%s cybernetiques',
+        '%s qui veulent mes vêtements, mes bottes et ma moto',
         
         // Musique / Son
         '%s tombé_e_s du ciel et dont les étoiles entre-elles ne font que parler',
@@ -842,6 +851,8 @@ export default {
         '%s qui mettent les potards à 11',
         '%s disque d\'or',
         '%s disque de platine',
+        '%s qui n\'ont besoin de rien, envie de moi',
+        {'m': '%s désireux de briser leur fournisseur d\'accès à Internet','f': '%s désireuses de briser leur fournisseur d\'accès à Internet'},
 
         // Fans des artistes réguliers des playlists de Woody
         '%s fans de Freddo Mercure', // Freddy Mercury
@@ -880,6 +891,7 @@ export default {
         '%s couci-couça',
         '%s à côté de leurs pompes',
         '%s vieilli_e_s en fût de chêne',
+        '%s qui pèguent',
 
         // Tenues vestimentaires
         '%s en débardeur',
