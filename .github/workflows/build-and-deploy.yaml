@@ -1,10 +1,9 @@
 name: Build and deploy
 
 on:
-  workflow_run:
-    workflows: ['test'] # Reuse the name of your tests workflow
-    branches: 'main'
-    types: ['completed']
+  push:
+    branches:
+      - main
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
