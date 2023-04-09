@@ -7,9 +7,6 @@ export default {
         if (new Date().getMonth() == 3 && new Date().getDate() == 1) {
             return `Salut les ${pick_adjective('algues','f')}, les ${pick_adjective('anguilles', 'f')} et les ${pick_adjective('poissons')}`;
         }
-        else if (new Date().getFullYear() == 2023 && new Date().getMonth() == 3 && new Date().getDate() == 7) {
-            return `Salut les ${pick_adjective('copeaux')}, les ${pick_adjective('viennoiseries', 'f')} et les ${pick_adjective('G4m3rZ')}`;
-        }
         else{
             return `Salut les ${pick_adjective('copeaux')}, les ${pick_adjective('échardes', 'f')} et les ${pick_adjective('sciures', 'f')}`;
         }
