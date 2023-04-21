@@ -7,7 +7,10 @@ export default {
         if (new Date().getMonth() == 3 && new Date().getDate() == 1) {
             return `Salut les ${pick_adjective('algues','f')}, les ${pick_adjective('anguilles', 'f')} et les ${pick_adjective('poissons')}`;
         }
-        else{
+        // Marathomb raider chez Titavion
+        else if (new Date().getFullYear() == 2023 && new Date().getMonth() == 3 && (new Date().getDate() == 21 || new Date().getDate() == 22)) {
+            return `Salut les ${pick_adjective('Indiana')}, les ${pick_adjective('Dora', 'f')} et autres ${pick_adjective('explorateurs')}`;
+        }else{
             return `Salut les ${pick_adjective('copeaux')}, les ${pick_adjective('échardes', 'f')} et les ${pick_adjective('sciures', 'f')}`;
         }
     },
