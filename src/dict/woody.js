@@ -954,6 +954,8 @@ export default {
         '%s cathodiques',
         '%s en Dolby surround',
         '%s qui branchent leurs prises USB Type A dans le bon sens du premier coup',
+        '%s en mode sans échec',
+        '%s en mode sans échec avec prise en charge réseau',
 
         // Sport
         '%s culturistes',
