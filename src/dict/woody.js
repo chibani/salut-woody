@@ -844,6 +844,7 @@ export default {
         {'m':'%s chanteurs', 'f': '%s chanteuses'},
         '%s choristes',
         '%s solistes',
+        '%s casserolistes',
         '%s désaccordé_e_s',
         '%s en ré-mineur',
         '%s en fa-dièse',
@@ -891,7 +892,7 @@ export default {
         {'m': '%s lurkers', 'f': 'lurkeuses'},
         '%s qui marseillent',
         '%s sponsorisé_e_s',
-        
+
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
         '%s comme-ci-comme-ça',
@@ -925,7 +926,7 @@ export default {
         {'m': '%s premiers de la classe', 'f': '%s premières de la classe'},
         {'m': '%s fabuleux', 'f': '%s fabuleuses'},
         
-        // JDR
+        // Jeux de rôle
         {'m':'%s loyaux bons','f': '%s loyales bonnes'},
         {'m':'%s neutres bons','f': '%s neutres bonnes'},
         {'m':'%s chaotiques bons','f': '%s chaotiques bonnes'},
@@ -959,12 +960,17 @@ export default {
         '%s qui branchent leurs prises USB Type A dans le bon sens du premier coup',
         '%s en mode sans échec',
         '%s en mode sans échec avec prise en charge réseau',
+        '%s reconditionné_e_s',
+        '%s adeptes du BEPO',
+        'erreurs 404 "%s not found"',
+        '%s lent_e_s à booter',
+        '%s connecté_e_s en 56k',
 
         // Sport
         '%s culturistes',
         '%s véliplanchistes',
         '%s musclé_e_s',
-
+        '%s in shape',
         
         // Divers et inclassables
         '%s divers',
