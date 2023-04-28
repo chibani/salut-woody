@@ -513,6 +513,8 @@ export default {
         '%s sibérien_ne_s',
         '%s géolocalisé_e_s',
         {'m': '%s septentrionaux', 'f': '%s septentrionales'},
+        {'m': '%s méridionaux', 'f': '%s méridionales'},
+        '%s habitant_e_s du Larrrrzac',
 
         // Médecine
         '%s appendiculaires',
