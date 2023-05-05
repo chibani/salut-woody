@@ -515,6 +515,8 @@ export default {
         {'m': '%s septentrionaux', 'f': '%s septentrionales'},
         {'m': '%s méridionaux', 'f': '%s méridionales'},
         '%s habitant_e_s du Larrrrzac',
+        '%s du nord',
+        '%s du sud',
 
         // Médecine
         '%s appendiculaires',
@@ -709,6 +711,7 @@ export default {
         '%s sous table',
         '%s prépercé_e_s',
         '%s thermoformé_e_s',
+        '%s qui poncent donc qui sont',
         
         // Matériaux
         '%s en résine',
@@ -833,6 +836,8 @@ export default {
         '%s qui veulent mes vêtements, mes bottes et ma moto',
         '%s qui pratiquent le free dance',
         '%s disco',
+        '%s qui ont la classe américaine',
+        '%s qui croient en le pouvoir de l\'amitié',
         
         // Musique / Son
         '%s tombé_e_s du ciel et dont les étoiles entre-elles ne font que parler',
@@ -893,7 +898,9 @@ export default {
         '%s mute',
         {'m': '%s lurkers', 'f': 'lurkeuses'},
         '%s qui marseillent',
+        '%s qui bordèlent',
         '%s sponsorisé_e_s',
+        '%s en train de se brosser les dents',
 
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
@@ -916,6 +923,7 @@ export default {
         '%s ajusté_e_s près du corps',
         '%s en laine qui grattent ses morts',
         '%s taille basse',
+        '%s en clqauettes-chaussettes',
         
         // Classement
         '%s S-tier',
