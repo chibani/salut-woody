@@ -414,7 +414,7 @@ export default {
         {'m':'%s irrespectueux', 'f':'%s irrespectueuses'},
         {'m':'%s joueurs', 'f':'%s joueuses'},
         {'m':'%s misogynes', 'f':'%s misandres'},
-        {'m':'%s malicieux', 'f':'%s malicieux'},
+        {'m':'%s malicieux', 'f':'%s malicieuses'},
         {'m':'%s manipulateurs', 'f':'%s manipulatrices'},
         {'m':'%s menteurs', 'f':'%s menteuses'},
         {'m':'%s moqueurs', 'f':'%s moqueuses'},
@@ -712,6 +712,8 @@ export default {
         '%s prépercé_e_s',
         '%s thermoformé_e_s',
         '%s qui poncent donc qui sont',
+        '%s qui luthent',
+        '%s issu_e_s de l\'illustre famille Papillon',
         
         // Matériaux
         '%s en résine',
@@ -822,6 +824,8 @@ export default {
         '%s limite nervous breakdown',
         '%s éparpillé_e_s façon puzzle',
         '%s libéréééé_e_s délivréééé_e_s',
+        '%s capables de tromper mille fois une personne',
+        '%s capables de tromper mille personnes une fois',
         
         // Pop-Culture
         '%s qui ont eu leur prénom dans le générique du Club Dorothée',
@@ -838,6 +842,7 @@ export default {
         '%s disco',
         '%s qui ont la classe américaine',
         '%s qui croient en le pouvoir de l\'amitié',
+        '%s qui ont trouvé le schmilblick',
         
         // Musique / Son
         '%s tombé_e_s du ciel et dont les étoiles entre-elles ne font que parler',
@@ -871,6 +876,8 @@ export default {
         '%s disque de platine',
         '%s qui n\'ont besoin de rien, envie de moi',
         {'m': '%s désireux de briser leur fournisseur d\'accès à Internet','f': '%s désireuses de briser leur fournisseur d\'accès à Internet'},
+        '%s à bord du TCHOO TCHOO TCHOO TCHOO TCHOO TCHOO TCHOO', // Electric Callboy - Tekno train
+        '%s qui tiennent la ligne', // TOTO - Hold the line
 
         // Fans des artistes réguliers des playlists de Woody
         '%s fans de Freddo Mercure', // Freddy Mercury
