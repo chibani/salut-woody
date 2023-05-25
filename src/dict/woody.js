@@ -437,7 +437,7 @@ export default {
         '%s à deux doigts de péter un câble',
         '%s nobles d\'âme',
         '%s matérialistes',
-        '%s perceptifs',
+        {'m': '%s perceptifs', 'f': '%s perceptives'},
         '%s mentalistes',
         '%s illusionistes',
         '%s marionnettistes',
