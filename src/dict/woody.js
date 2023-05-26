@@ -937,7 +937,7 @@ export default {
         '%s ajusté_e_s près du corps',
         '%s en laine qui grattent ses morts',
         '%s taille basse',
-        '%s en clqauettes-chaussettes',
+        '%s en claquettes-chaussettes',
         
         // Classement
         '%s S-tier',
