@@ -388,6 +388,7 @@ export default {
         '%s méprisant_e_s',
         '%s mythomanes',
         '%s obstiné_e_s',
+        '%s opiniâtres',
         '%s pédant_e_s',
         '%s perfectionnistes',
         '%s pervers_es_',
@@ -843,6 +844,12 @@ export default {
         '%s qui ont la classe américaine',
         '%s qui croient en le pouvoir de l\'amitié',
         '%s qui ont trouvé le schmilblick',
+        '%s fans de Sheraf (ce groupe number one)',
+        '%s fanascistes',
+        '%s qui réveillent à 35 ans pour se demander ce que ça veut dire « monde de merde »',
+        '%s babloches',
+        '%s qui se pointent avec trois quarts d’heure de retard, pas bonjour, pas merci, filent tout droit au frigo, et prennent la dernière bière',
+        {'m': '%s préhistoriques partouzeurs de droite', 'f': '%s préhistoriques partouzeuses de droite'},
         
         // Musique / Son
         '%s tombé_e_s du ciel et dont les étoiles entre-elles ne font que parler',
@@ -990,7 +997,8 @@ export default {
         '%s in shape',
         
         // Divers et inclassables
-        '%s divers',
+        '%s divers_e_s',
+        '%s inclassables',
         '%s varié_e_s',
         '%s pirates',
         '%s en sueur',
