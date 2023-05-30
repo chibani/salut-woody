@@ -76,7 +76,7 @@ export default {
         '%s ardent_e_s',
         '%s artistiques',
         '%s assidu_e_s',
-        '%s attentif_e_s',
+        {'m': '%s attentifs', 'f': '%s attentives'},
         {'m':'%s audacieux', 'f':'%s audacieuses'},
         '%s authentiques',
         '%s autonomes',
