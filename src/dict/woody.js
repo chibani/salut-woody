@@ -548,6 +548,8 @@ export default {
         '%s somnambules',
         '%s symbiotiques',
         '%s somatiques',
+        '%s scapulaires',
+        '%s sous-scapulaires',
 
         // Dimensions
         '%s titanesques',
