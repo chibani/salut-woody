@@ -8,8 +8,8 @@ L'outil proposé est un simple générateur de texte à trou, basé sur le templ
 
 
 ## Les qualificatifs  
-Ils sont "stockés" dans une constante, dans le script `src/dict/woody.js`.  
-La liste des qualificatifs est assez longue, plus de 700 éléments, mais ne vous privew pas d'en rajouter.  
+Ils sont "stockés" dans le script `src/dict/woody.js`.  
+La liste des qualificatifs est assez longue, plus de 900 éléments, mais ne vous privez pas d'en rajouter.  
 
 ### Format des qualificatifs et accord en genre  
 Parce que le Français est une langue genrée (quelle chance ont les anglophones... ça simplifie tellement le code), j'ai adopté la convention de codage suivante :  
@@ -18,6 +18,15 @@ Parce que le Français est une langue genrée (quelle chance ont les anglophones
  - Quand l'accord est plus complexe (ex: `beaux` -> `belles`), il faut définir un objet avec les clés `m` et `f` (ex: `{'m':'beaux', 'f':'belles'}`)
 
 Ensuite, une règle métier vient appliquer l'accord en fonction du genre du nom à qualifier.
+
+## Installation locale  
+Le projet consiste en une simple page HTML accompagnéé de quelques scripts JS.  
+1. Cloner le projet
+2. Installer les dépendances node (`npm ci` ou `npm install`)
+3. Construire le projet : `npm run build`
+4. Afficher le site (Ouvrir le fichier `dist/index.html` dans son navigateur)
+
+Le projet comporte également un jeu de tests unitaires : `npm run test`, notamment pour vérifier l'unicité des qualificatifs présents dans `src/dict/woody.js`
 
 ## Comment contribuer  
 J'accepte avec plaisir les contributions : nouveaux qualificatifs, correction de fautes diverses ou encore optimisation du code (ou de l'apparence de la page).  
