@@ -491,6 +491,7 @@ export default {
         '%s infranglibles', // incassable
         '%s irréfragables', // incontestable
         '%s superfétatoires',// qui s'ajoute inutilement à un autre, qui est en trop
+        '%s au parfum agréable',
 
         // Expressions Quebecoises
         {'m': '%s vlimeux', 'f': '%s vlimeuses'}, // rusé et malicieux
