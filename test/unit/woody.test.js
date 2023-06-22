@@ -13,7 +13,7 @@ test('Should use the default template any day but april first', () => {
 
 test('Should use the special template on 2023 Castlevania Marathon', () => {
     jest.useFakeTimers().setSystemTime(new Date('2023-06-17'));
-    expect(config.generate_greetings((word)=>word)).toBe('Salut les vampires, les goules et les zombies');
+    expect(config.generate_greetings((word)=>word)).toBe('Salut les vampires, les manticores et les cerbères');
 });
 
 test('Dictionary should not contain duplicates in adjectives', () => {

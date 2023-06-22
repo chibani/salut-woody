@@ -9,7 +9,7 @@ export default {
         }
         // Marathon Castlevania
         else if (new Date().getFullYear() == 2023 && new Date().getMonth() == 5 && [16, 17, 18, 24, 25, 26].includes(new Date().getDate())) {
-            return `Salut les ${pick_adjective('vampires')}, les ${pick_adjective('goules', 'f')} et les ${pick_adjective('zombies')}`;
+            return `Salut les ${pick_adjective('vampires')}, les ${pick_adjective('manticores', 'f')} et les ${pick_adjective('cerbères')}`;
         }else{
             return `Salut les ${pick_adjective('copeaux')}, les ${pick_adjective('échardes', 'f')} et les ${pick_adjective('sciures', 'f')}`;
         }
@@ -818,6 +818,7 @@ export default {
         '%s méliflu_e_s',
         {'m': '%s nidoreux','f': '%s nidoreuses'}, // qui dégagent un gout d'oeuf pourri
         '%s sapides',// Qui a du goût, de la saveur
+        '%s finement aillé_e_s',
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
@@ -991,6 +992,8 @@ export default {
         'erreurs 404 "%s not found"',
         '%s lent_e_s à booter',
         '%s connecté_e_s en 56k',
+        '%s du château vanille',
+        '%s de la famille Belmont',
 
         // Sport
         '%s culturistes',
