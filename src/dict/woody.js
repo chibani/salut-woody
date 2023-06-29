@@ -664,6 +664,7 @@ export default {
         '%s Alpha 💪💪💪💪💪💪',
         'crypto-%s',
         '%s en NFT',
+        '%s non-fongibles',
         '%s en DLC',
         'camarades %s ✊',
         '%s en rang deux par deux',
@@ -889,6 +890,7 @@ export default {
         {'m': '%s désireux de briser leur fournisseur d\'accès à Internet','f': '%s désireuses de briser leur fournisseur d\'accès à Internet'},
         '%s à bord du TCHOO TCHOO TCHOO TCHOO TCHOO TCHOO TCHOO', // Electric Callboy - Tekno train
         '%s qui tiennent la ligne', // TOTO - Hold the line
+        '%s qui possèdent les mouvements', // Electric Callboy - We got the moves
 
         // Fans des artistes réguliers des playlists de Woody
         '%s fans de Freddo Mercure', // Freddy Mercury
