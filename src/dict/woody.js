@@ -512,6 +512,8 @@ export default {
         '%s à l\'ouest',
         '%s du bout du monde',
         '%s Marseillai_se_s',
+        '%s lyonnais_e_s',
+        '%s monegasques',
         '%s sibérien_ne_s',
         '%s géolocalisé_e_s',
         {'m': '%s septentrionaux', 'f': '%s septentrionales'},
@@ -519,6 +521,8 @@ export default {
         '%s habitant_e_s du Larrrrzac',
         '%s du nord',
         '%s du sud',
+        '%s qui sachent qu\'au dessus de Montélimar c\'est le nord',
+        '%s qui pensent qu\'au dessus de Lyon c\'est le nord',
 
         // Médecine
         '%s appendiculaires',
@@ -771,17 +775,17 @@ export default {
         // Cuisine / Nourriture
         '%s au piment d\'Espelette',
         '%s carbonara',
-        'tagines de %s',
+        '%s en tagine',
         '%s aux p\'tit salé',
         '%s à la mode de Caen',
         '%s frit_e_s',
         '%s pané_e_s',
         '%s farci_e_s',
-        'sushis de %s',
-        'accras de %s',
-        'cheesecakes de %s',
-        'galettes de %s',
-        'compotées de %s',
+        'sushis aux %s',
+        'accras de morue-%s',
+        'cheesecake aux %s',
+        'galettes aux %s',
+        'compotées d\'%s',
         '%s béchamel',
         '%s saisi_e_s à la plancha',
         '%s cuit_e_s au feu de bois',
@@ -789,7 +793,7 @@ export default {
         '%s au beurre',
         '%s au saindoux',
         '%s à l\'huile d\'olive',
-        'pesto de %s',
+        '%s en pesto',
         '%s qui restent coincé_e_s entre les dents',
         '%s qui coupent les spaghetthi avant de les faire cuire',
         '%s pas trop cuit_e_s',
@@ -891,6 +895,8 @@ export default {
         '%s à bord du TCHOO TCHOO TCHOO TCHOO TCHOO TCHOO TCHOO', // Electric Callboy - Tekno train
         '%s qui tiennent la ligne', // TOTO - Hold the line
         '%s qui possèdent les mouvements', // Electric Callboy - We got the moves
+        '%s accoustiques',
+        '%s éléctro-accoustiques',
 
         // Fans des artistes réguliers des playlists de Woody
         '%s fans de Freddo Mercure', // Freddy Mercury
