@@ -859,6 +859,7 @@ export default {
         '%s babloches',
         '%s qui se pointent avec trois quarts d’heure de retard, pas bonjour, pas merci, filent tout droit au frigo, et prennent la dernière bière',
         {'m': '%s préhistoriques partouzeurs de droite', 'f': '%s préhistoriques partouzeuses de droite'},
+        '%s juste dessiné_e_s comme ça',
         
         // Musique / Son
         '%s tombé_e_s du ciel et dont les étoiles entre-elles ne font que parler',
@@ -893,6 +894,7 @@ export default {
         '%s qui n\'ont besoin de rien, envie de moi',
         {'m': '%s désireux de briser leur fournisseur d\'accès à Internet','f': '%s désireuses de briser leur fournisseur d\'accès à Internet'},
         '%s à bord du TCHOO TCHOO TCHOO TCHOO TCHOO TCHOO TCHOO', // Electric Callboy - Tekno train
+        '%s qui voyagent à bord du train technologique', // Electric Callboy - Tekno train
         '%s qui tiennent la ligne', // TOTO - Hold the line
         '%s qui possèdent les mouvements', // Electric Callboy - We got the moves
         '%s accoustiques',
