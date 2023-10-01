@@ -929,6 +929,7 @@ export default {
         '%s qui bordèlent',
         '%s sponsorisé_e_s',
         '%s en train de se brosser les dents',
+        '%s qui gomment avec une ponceuse',
 
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
