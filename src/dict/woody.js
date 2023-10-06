@@ -930,6 +930,7 @@ export default {
         '%s sponsorisé_e_s',
         '%s en train de se brosser les dents',
         '%s qui gomment avec une ponceuse',
+        '%s collectionné_e_s en coulisse',
 
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
