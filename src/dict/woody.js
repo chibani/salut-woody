@@ -855,7 +855,7 @@ export default {
         '%s qui ont trouvé le schmilblick',
         '%s fans de Sheraf (ce groupe number one)',
         '%s fanascistes',
-        '%s qui réveillent à 35 ans pour se demander ce que ça veut dire « monde de merde »',
+        '%s qui se réveillent à 35 ans pour se demander ce que ça veut dire « monde de merde »',
         '%s babloches',
         '%s qui se pointent avec trois quarts d’heure de retard, pas bonjour, pas merci, filent tout droit au frigo, et prennent la dernière bière',
         {'m': '%s préhistoriques partouzeurs de droite', 'f': '%s préhistoriques partouzeuses de droite'},
