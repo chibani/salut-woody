@@ -899,6 +899,9 @@ export default {
         '%s qui possèdent les mouvements', // Electric Callboy - We got the moves
         '%s accoustiques',
         '%s éléctro-accoustiques',
+        {'m': '%s soucieux de l\'état d\'Annie', 'f': '%s soucieuses de l\'état d\'Annie'},// Michael Jackson - Smooth criminal
+        {'m': '%s soyeux comme des criminels', 'f': '%s soyeuses comme des criminelles'},// Michael Jackson - Smooth criminal
+
 
         // Fans des artistes réguliers des playlists de Woody
         '%s fans de Freddo Mercure', // Freddy Mercury
