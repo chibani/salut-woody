@@ -492,6 +492,8 @@ export default {
         '%s irréfragables', // incontestable
         '%s superfétatoires',// qui s'ajoute inutilement à un autre, qui est en trop
         '%s au parfum agréable',
+        '%s orchidoclastes', // vient du grec, orkhis, qui signifie testicules, et de klastós qui signifie casser. Un Orchidoclaste est un casse couille, mais dit avec un air emphatique.
+        '%s emphatiques', // pompeux, ampoulé, grandiloquent.
 
         // Expressions Quebecoises
         {'m': '%s vlimeux', 'f': '%s vlimeuses'}, // rusé et malicieux
