@@ -494,7 +494,8 @@ export default {
         '%s au parfum agréable',
         '%s orchidoclastes', // vient du grec, orkhis, qui signifie testicules, et de klastós qui signifie casser. Un Orchidoclaste est un casse couille, mais dit avec un air emphatique.
         '%s emphatiques', // pompeux, ampoulé, grandiloquent.
-
+        '%s séculaires',
+        
         // Expressions Quebecoises
         {'m': '%s vlimeux', 'f': '%s vlimeuses'}, // rusé et malicieux
         '%s usé_e_s au coton',// Usés à la corde
@@ -904,6 +905,16 @@ export default {
         {'m': '%s soucieux de l\'état d\'Annie', 'f': '%s soucieuses de l\'état d\'Annie'},// Michael Jackson - Smooth criminal
         {'m': '%s soyeux comme des criminels', 'f': '%s soyeuses comme des criminelles'},// Michael Jackson - Smooth criminal
         '%s qui jouent du piano debout',
+        '%s qui chantent des cantiques',
+        '%s en Do Majeur',
+        '%s en Ré Majeur',
+        '%s en Mi Majeur',
+        '%s en Fa Majeur',
+        '%s en Sol Majeur',
+        '%s en La Majeur',
+        '%s en Si Majeur',
+        '%s en La 440',
+        '%s qui jouent de l\'harmonium',
 
 
         // Fans des artistes réguliers des playlists de Woody
@@ -937,6 +948,7 @@ export default {
         '%s en train de se brosser les dents',
         '%s qui gomment avec une ponceuse',
         '%s collectionné_e_s en coulisse',
+        '%s qui marchent à pieds d\'chaussettes',
 
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
@@ -1013,6 +1025,7 @@ export default {
         '%s connecté_e_s en 56k',
         '%s du château vanille',
         '%s de la famille Belmont',
+        '%s sous DOS',
 
         // Sport
         '%s culturistes',
