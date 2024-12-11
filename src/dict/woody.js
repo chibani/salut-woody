@@ -941,7 +941,7 @@ export default {
         '%s en text-to-speech germanique',
         '%s qui marchent sur le câble de leur Stream Deck',
         '%s mute',
-        {'m': '%s lurkers', 'f': 'lurkeuses'},
+        {'m': '%s lurkers', 'f': '%s lurkeuses'},
         '%s qui marseillent',
         '%s qui bordèlent',
         '%s sponsorisé_e_s',
