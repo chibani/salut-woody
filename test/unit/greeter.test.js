@@ -11,6 +11,7 @@ const greeter = new Greeter({
 
     "adjectives" : [
         '%s magiques',
+        {'copeaux':'%s copelants', 'sciures':'%s sciees', 'm': '%s non-copelants', 'f':'%s non-copelantes'},
         {'m': '%s derniers', 'f': '%s dernières'},
     ]
 });
@@ -39,7 +40,13 @@ test('Should adjectivize correctly', ()=>{
 test('Should adjectivize with all adjectives', ()=>{
     expect(greeter.pick_all_adjectives('échardes', 'f')).toStrictEqual([
         'échardes magiques',
-        'échardes dernières'
+        'échardes non-copelantes',
+        'échardes dernières',
+    ]);
+    expect(greeter.pick_all_adjectives('copeaux', 'm')).toStrictEqual([
+        'copeaux magiques',
+        'copeaux copelants',
+        'copeaux derniers',
     ]);
 });
 
@@ -47,4 +54,25 @@ test('Should generate the greeting properly', ()=>{
     greeter.config.adjectives = ['%s magiques'];
     greeter.refresh_greetings();
     expect(greeter.get_generated_greetings()).toBe('On test les copeaux magiques');
+});
+
+test('Should check adjective compatibility', ()=>{
+    expect(greeter.isCompatible('%s compatibles', 'copeaux', 'm')).toBe(true);
+    expect(greeter.isCompatible({'f':'%s incompatibles'})).toBe(false);
+    expect(greeter.isCompatible({'sciures':'%s incompatibles'})).toBe(false);
+    expect(greeter.isCompatible({'copeaux':'%s compatibles'})).toBe(false);
+    expect(greeter.isCompatible({'m':'%s compatibles'})).toBe(false);
+});
+
+test('Should filter adjectives by compatibility', ()=>{
+    const adjectives = [
+        {'m':'%s compatibles'},
+        {'f':'%s incompatibles'},
+        {'sciures':'%s incompatibles'},
+        {'copeaux':'%s compatibles'},
+        {'m':'%s compatibles'}
+    ]
+
+    expect(greeter.getCompatibleAdjectives(adjectives, 'copeaux', 'm').length).toBe(3);
+    expect(greeter.getCompatibleAdjectives(adjectives, 'sciures', 'f').length).toBe(2);
 });

@@ -726,6 +726,7 @@ export default {
         '%s qui poncent donc qui sont',
         '%s qui luthent',
         '%s issu_e_s de l\'illustre famille Papillon',
+        {'sciures': 'qui se questionnent sur le sens de leur vie. D\'ailleurs, c\'est quoi le sens de la vie ? Vous voyez, moi, en tant que résidu de bois concassé, je pense que la vie c\'est avant tout une aventure. Une aventure qui commence là où s\'arrête celle d\'un autre, le bout de bois, qui, travaillé par le luthier deviendra une belle pièce. Et bien mon aventure à moi, ma vie, elle commence ici, à la chute de ce bout de bois, avant que je vienne à toucher le sol, violemment propulsé par un outillage destructeur.'},
         
         // Matériaux
         '%s en résine',
@@ -854,6 +855,7 @@ export default {
         '%s qui pratiquent le free dance',
         '%s disco',
         '%s qui ont la classe américaine',
+        '%s qui préfèrent se barrer plutôt que d\'entendre ça plutôt que d\'être sourd_e_',
         '%s qui croient en le pouvoir de l\'amitié',
         '%s qui ont trouvé le schmilblick',
         '%s fans de Sheraf (ce groupe number one)',
@@ -915,6 +917,7 @@ export default {
         '%s en Si Majeur',
         '%s en La 440',
         '%s qui jouent de l\'harmonium',
+        {'f': '%s qui sont libertines, qui sont des catins, qui sont si fragiles, qu\'on leur tient la main'},
 
 
         // Fans des artistes réguliers des playlists de Woody
