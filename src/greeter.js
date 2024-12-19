@@ -6,24 +6,37 @@ export default class Greeter {
     }
 
     pick_adjective = (position=0, word='', gender='m') => {
-        const adj = this.config.adjectives.at(position);
+        const adj = this.getCompatibleAdjectives(this.config.adjectives, word, gender).at(position);
 
         return this.adjectivize(word, adj, gender);
     }
 
     pick_random_adjective = (word, gender = 'm') => {
-        return this.pick_adjective(Math.floor(Math.random() * this.config.adjectives.length), word, gender);
+        return this.pick_adjective(Math.floor(Math.random() * this.getCompatibleAdjectives(this.config.adjectives, word, gender).length), word, gender);
     }
 
     pick_all_adjectives = (word, gender = 'm') => {
-        return this.config.adjectives.map( adj => this.adjectivize(word, adj, gender) );
+        return this.getCompatibleAdjectives(this.config.adjectives, word, gender).map( adj => this.adjectivize(word, adj, gender) );
     }
 
     adjectivize = (word, adj, gender) => {
+        console.log(word, adj, gender);
         if (typeof adj === 'string') {
             return this.gender_swap(adj, gender).replace('%s', word);
         } else {
-            return adj[gender].replace('%s', word);
+            return adj[word in adj?word:gender].replace('%s', word);
+        }
+    }
+
+    getCompatibleAdjectives = (adjectives, word, gender) => { 
+        return adjectives.filter( adj => this.isCompatible(adj, word, gender));
+    }
+
+    isCompatible = (adj, word, gender) => {
+        if (typeof adj === 'string') {
+            return true;
+        } else {
+            return word in adj || gender in adj;
         }
     }
 

@@ -18,7 +18,6 @@ test('Should use the special template on 2023 Castlevania Marathon', () => {
 
 test('Dictionary should not contain duplicates in adjectives', () => {
     const adjectives = config.adjectives;
-    //expect(adjectives.length).toBe(  );
     let duplicated = adjectives.filter((element, index) => {
         return adjectives.indexOf(element) !== index;
     });
