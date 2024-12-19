@@ -726,7 +726,7 @@ export default {
         '%s qui poncent donc qui sont',
         '%s qui luthent',
         '%s issu_e_s de l\'illustre famille Papillon',
-        {'sciures': 'qui se questionnent sur le sens de leur vie. D\'ailleurs, c\'est quoi le sens de la vie ? Vous voyez, moi, en tant que résidu de bois concassé, je pense que la vie c\'est avant tout une aventure. Une aventure qui commence là où s\'arrête celle d\'un autre, le bout de bois, qui, travaillé par le luthier deviendra une belle pièce. Et bien mon aventure à moi, ma vie, elle commence ici, à la chute de ce bout de bois, avant que je vienne à toucher le sol, violemment propulsé par un outillage destructeur.'},
+        {'sciures': '%s qui se questionnent sur le sens de leur vie. D\'ailleurs, c\'est quoi le sens de la vie ? Vous voyez, moi, en tant que résidu de bois concassé, je pense que la vie c\'est avant tout une aventure. Une aventure qui commence là où s\'arrête celle d\'un autre, le bout de bois, qui, travaillé par le luthier deviendra une belle pièce. Et bien mon aventure à moi, ma vie, elle commence ici, à la chute de ce bout de bois, avant que je vienne à toucher le sol, violemment propulsé par un outillage destructeur.'},
         
         // Matériaux
         '%s en résine',
