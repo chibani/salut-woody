@@ -702,6 +702,8 @@ export default {
         '%s défiscalisé_e_s',
         {'m':'%s inclusifs', 'f': '%s inclusives'},
         '%s qui discudancent', // Message à Caractère Informatif
+        '%s en peignoir dans leur canap',
+        '%s bercé_e_s trop près du mur',
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -829,6 +831,7 @@ export default {
         {'m': '%s nidoreux','f': '%s nidoreuses'}, // qui dégagent un gout d'oeuf pourri
         '%s sapides',// Qui a du goût, de la saveur
         '%s finement aillé_e_s',
+        '%s fort_e_s en pomme',
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
@@ -873,7 +876,7 @@ export default {
         '%s bassistes',
         '%s guitaristes',
         {'m':'%s batteurs','f':'%s batteuses'},
-        '%s claviéristes',
+        '%s CLAVIÉRISTES',
         '%s xylophonistes',
         {'m':'%s chanteurs', 'f': '%s chanteuses'},
         '%s choristes',
@@ -918,6 +921,8 @@ export default {
         '%s en La 440',
         '%s qui jouent de l\'harmonium',
         {'f': '%s qui sont libertines, qui sont des catins, qui sont si fragiles, qu\'on leur tient la main'},
+        {'f': '%s que elles elles aiment, le tamtam', 'm':'%s que eux ils aiment, le tamtam'},
+        
 
 
         // Fans des artistes réguliers des playlists de Woody
@@ -952,6 +957,7 @@ export default {
         '%s qui gomment avec une ponceuse',
         '%s collectionné_e_s en coulisse',
         '%s qui marchent à pieds d\'chaussettes',
+        '%s qui collectionnent des des canards (vivants)',
 
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
