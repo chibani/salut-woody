@@ -495,6 +495,7 @@ export default {
         '%s orchidoclastes', // vient du grec, orkhis, qui signifie testicules, et de klastós qui signifie casser. Un Orchidoclaste est un casse couille, mais dit avec un air emphatique.
         '%s emphatiques', // pompeux, ampoulé, grandiloquent.
         '%s séculaires',
+        '%s hydratant_e_s mais pas gra_sse_s',
         
         // Expressions Quebecoises
         {'m': '%s vlimeux', 'f': '%s vlimeuses'}, // rusé et malicieux
@@ -522,6 +523,7 @@ export default {
         {'m': '%s septentrionaux', 'f': '%s septentrionales'},
         {'m': '%s méridionaux', 'f': '%s méridionales'},
         '%s habitant_e_s du Larrrrzac',
+        '%s habitang_uete_s du Larrrrzac-uh',
         '%s du nord',
         '%s du sud',
         '%s qui sachent qu\'au dessus de Montélimar c\'est le nord',
@@ -734,6 +736,7 @@ export default {
         '%s qui luthent',
         '%s issu_e_s de l\'illustre famille Papillon',
         {'sciures': '%s qui se questionnent sur le sens de leur vie. D\'ailleurs, c\'est quoi le sens de la vie ? Vous voyez, moi, en tant que résidu de bois concassé, je pense que la vie c\'est avant tout une aventure. Une aventure qui commence là où s\'arrête celle d\'un autre, le bout de bois, qui, travaillé par le luthier deviendra une belle pièce. Et bien mon aventure à moi, ma vie, elle commence ici, à la chute de ce bout de bois, avant que je vienne à toucher le sol, violemment propulsé par un outillage destructeur.'},
+        '%s à chaîne auto-affûtante',
         
         // Matériaux
         '%s en résine',
@@ -839,6 +842,7 @@ export default {
         '%s finement aillé_e_s',
         '%s fort_e_s en pomme',
         '%s garantissant le retour de l\'être aimé',
+        {'m': '%s gélatineux','f': '%s gélatineuses'},
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
@@ -953,6 +957,7 @@ export default {
         '%s abonné_e_s',
         '%s qui perdent leurs ciseaux',
         '%s rangé_e_s dans la cabane',
+        '%s qui mettent l\'acétone dans la cabane',
         '%s vêtu_e_s d\'un splendide tablier',
         '%s en text-to-speech germanique',
         '%s qui marchent sur le câble de leur Stream Deck',
@@ -967,6 +972,10 @@ export default {
         '%s qui marchent à pieds d\'chaussettes',
         '%s qui collectionnent des des canards (vivants)',
         '%s qui se prononcent "Cheh" en sumérien',
+        '%s qui font des drifts en Punto',
+        '%s qui vont a la page 394',
+        '%s qui font des unboxing de bières',
+        '%s qui geignent dans le jasmin',
 
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
