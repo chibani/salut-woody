@@ -817,6 +817,7 @@ export default {
         '%s torréfié_e_s',
         '%s malté_e_s',
         '%s zytophiles',
+        '%s chionosphérophiles',
         '%s avarié_e_s',
         '%s universel_le_s',
         '%s fermenté_e_s',
@@ -969,6 +970,7 @@ export default {
 
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
+        '%s qui mettent la peau de mamie dans les orties avant d\'avoir vendu l\'ours',
         '%s comme-ci-comme-ça',
         '%s épatatant_e_s',
         '%s à la one again',
@@ -1064,5 +1066,7 @@ export default {
         '%s collectors',
         '%s en édition limitée',
         '%s publicitaires',
+        {'f': '%s qui sont si chères à nos yeux qu\'elles figurent sur le catalogue UGAP', 'm': '%s qui sont si chers à nos yeux qu\'ils figurent sur le catalogue UGAP'},
+        '%s qui sont les 1000emes',
     ]
 }
