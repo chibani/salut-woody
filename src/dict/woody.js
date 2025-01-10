@@ -559,6 +559,11 @@ export default {
         '%s scapulaires',
         '%s sous-scapulaires',
 
+        // Pseudo-sciences
+        '%s énergéticien_ne_s',
+        '%s aligné_e_s sur le plan vibratoire',
+        '%s homéopatiques',
+
         // Dimensions
         '%s titanesques',
         '%s microscopiques',
@@ -832,6 +837,7 @@ export default {
         '%s sapides',// Qui a du goût, de la saveur
         '%s finement aillé_e_s',
         '%s fort_e_s en pomme',
+        '%s garantissant le retour de l\'être aimé',
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
@@ -909,6 +915,7 @@ export default {
         '%s éléctro-accoustiques',
         {'m': '%s soucieux de l\'état d\'Annie', 'f': '%s soucieuses de l\'état d\'Annie'},// Michael Jackson - Smooth criminal
         {'m': '%s soyeux comme des criminels', 'f': '%s soyeuses comme des criminelles'},// Michael Jackson - Smooth criminal
+        '%s frappé_e_s par des criminels soyeux',// Michael Jackson - Smooth criminal, variante
         '%s qui jouent du piano debout',
         '%s qui chantent des cantiques',
         '%s en Do Majeur',
@@ -931,7 +938,7 @@ export default {
         '%s fans de Jacques Noir', // Jack Black
         '%s fans de David Godasse', // Dave Grohl
         '%s fans de Michel fils de Jacques', // Michael Jackson
-        '%s dédicacés par Josh Homme',
+        '%s dédicacé_e_s par Josh Homme',
         
         // Propres à la chaîne WoodyLutherie ou Twitch
         '%s venu_e_s découvrir les meilleures playlist Spotify du Twitch Game',
@@ -958,6 +965,7 @@ export default {
         '%s collectionné_e_s en coulisse',
         '%s qui marchent à pieds d\'chaussettes',
         '%s qui collectionnent des des canards (vivants)',
+        '%s qui se prononcent "Cheh" en sumérien',
 
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
