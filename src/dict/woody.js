@@ -883,6 +883,7 @@ export default {
         // Musique / Son
         '%s tombé_e_s du ciel et dont les étoiles entre-elles ne font que parler',
         '%s à qui on a mis la fièvre pendant des heures',
+        {'copeaux': '%s, copeaux cabana, les copeaux les plus chauds du nord de la Havana'},
         '%s trombonistes',
         '%s bassistes',
         '%s guitaristes',
