@@ -867,6 +867,8 @@ export default {
         '%s qui me font me sentir tout bizarre, comme quand on était en cours de gym et qu\'on devait grimper à la corde à nœuds',
         {'m': '%s qui si ils étaient le nom d\'un médicament, ce serait un suppositoire', 'f': '%s qui si elles étaient le nom d\'un médicament, ce serait un suppositoire'},
         '%s qui toujours rêvé d\'ouvrir une porte et de voir une salle pleine de mecs super entrainés comme dans les films de James Bond',
+        {'m':'%s qui sillonnent les USA à la recherche de nouveaux talents à embaucher. Prochaine étape : St Louis. Ils vont revenir via Chicago. Direction Détroit !', 'f':'%s qui sillonnent les USA à la recherche de nouveaux talents à embaucher. Prochaine étape : St Louis. Elles vont revenir via Chicago. Direction Détroit !'},
+        '%s bien plus grand_e_ qu\'une voiture normale',
         
         // Pop-Culture
         '%s qui ont eu leur prénom dans le générique du Club Dorothée',
