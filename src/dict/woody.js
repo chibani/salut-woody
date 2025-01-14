@@ -869,6 +869,9 @@ export default {
         '%s qui toujours rêvé d\'ouvrir une porte et de voir une salle pleine de mecs super entrainés comme dans les films de James Bond',
         {'m':'%s qui sillonnent les USA à la recherche de nouveaux talents à embaucher. Prochaine étape : St Louis. Ils vont revenir via Chicago. Direction Détroit !', 'f':'%s qui sillonnent les USA à la recherche de nouveaux talents à embaucher. Prochaine étape : St Louis. Elles vont revenir via Chicago. Direction Détroit !'},
         '%s bien plus grand_e_ qu\'une voiture normale',
+        '%s qui savent comme moi qu’il y a pas de pellicule dans cette caméra',
+        '%s qui veulent pas ressembler à un para',
+        '%s sponsorisé_e_s par les Arches de Noé',
         
         // Pop-Culture
         '%s qui ont eu leur prénom dans le générique du Club Dorothée',
