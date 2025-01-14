@@ -854,6 +854,11 @@ export default {
         '%s libéréééé_e_s délivréééé_e_s',
         '%s capables de tromper mille fois une personne',
         '%s capables de tromper mille personnes une fois',
+        '%s qui VOITUUUUURE ... ENGAGEMENT',
+        '%s qui aiment taper',
+        '%s vu_e_s sur caméra 1, caméra 2, caméra 1',
+        {'f': '%s qui un jour seront miennes, oh oui, un jour elles seront miennes'},
+        '%s en train de se retricotter un filet', // Wayne's World, scène du hockey dans la rue
         
         // Pop-Culture
         '%s qui ont eu leur prénom dans le générique du Club Dorothée',
@@ -1061,6 +1066,7 @@ export default {
         '%s véliplanchistes',
         '%s musclé_e_s',
         '%s in shape',
+        '%s aquaponistes',
         
         // Divers et inclassables
         '%s divers_e_s',
