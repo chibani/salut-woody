@@ -859,6 +859,14 @@ export default {
         '%s vu_e_s sur caméra 1, caméra 2, caméra 1',
         {'f': '%s qui un jour seront miennes, oh oui, un jour elles seront miennes'},
         '%s en train de se retricotter un filet', // Wayne's World, scène du hockey dans la rue
+        '%s qui aiment leurs slips bien serrés',
+        '%s qui jamais ne s\'inclinent devant un sponsor',
+        '%s zebré_e_s pour leur plaisir',
+        '%s qui se sentent tout zarb',
+        'foxy %s',
+        '%s qui me font me sentir tout bizarre, comme quand on était en cours de gym et qu\'on devait grimper à la corde à nœuds',
+        {'m': '%s qui si ils étaient le nom d\'un médicament, ce serait un suppositoire', 'f': '%s qui si elles étaient le nom d\'un médicament, ce serait un suppositoire'},
+        '%s qui toujours rêvé d\'ouvrir une porte et de voir une salle pleine de mecs super entrainés comme dans les films de James Bond',
         
         // Pop-Culture
         '%s qui ont eu leur prénom dans le générique du Club Dorothée',
