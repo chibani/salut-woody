@@ -1073,6 +1073,7 @@ export default {
         '%s du château vanille',
         '%s de la famille Belmont',
         '%s sous DOS',
+        '%s en NullPointerException',
 
         // Sport
         '%s culturistes',
@@ -1097,5 +1098,27 @@ export default {
         '%s publicitaires',
         {'f': '%s qui sont si chères à nos yeux qu\'elles figurent sur le catalogue UGAP', 'm': '%s qui sont si chers à nos yeux qu\'ils figurent sur le catalogue UGAP'},
         '%s qui sont les 1000emes',
+        {'sciures': '%s de mouche'},
+
+        // Spécial sciures
+        {'sciures': '%s Christopher Lee'},
+        {'sciures': '%s Colin Davis'},
+        {'sciures': '%s Charlie Chaplin'},
+        {'sciures': '%s Alfred Hitchcock'},
+        {'sciures': '%s Mick Jagger'},
+        {'sciures': '%s Elton John'},
+        {'sciures': '%s Ian McKellen'},
+        {'sciures': '%s Patrick Stewart'},
+        {'sciures': '%s Patrick Sciurwart'},
+        {'sciures': '%s Ridley Scott'},
+        {'sciures': '%s Brian May'},
+        {'sciures': '%s Paul McCartney'},
+        {'sciures': '%s Tim Berners-Lee'},
+        {'sciures': '%s Robin de Locksley'},
+        {'sciures': '%s Arthur Pendragon'},
+        {'sciures': 'Sciuril Lignac'},
+        {'sciures': '%s d\'abeille'},
+        {'sciures': 'les diplômés de l\'école militaire de St %s'},
+        {'sciures': 'Sciurano de Bergerac'},
     ]
 }
