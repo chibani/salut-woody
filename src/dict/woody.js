@@ -7,9 +7,9 @@ export default {
         if (new Date().getMonth() == 3 && new Date().getDate() == 1) {
             return `Salut les ${pick_adjective('algues','f')}, les ${pick_adjective('anguilles', 'f')} et les ${pick_adjective('poissons')}`;
         }
-        // Marathon Castlevania
-        else if (new Date().getFullYear() == 2023 && new Date().getMonth() == 5 && [16, 17, 18, 23, 24, 25].includes(new Date().getDate())) {
-            return `Salut les ${pick_adjective('vampires')}, les ${pick_adjective('manticores', 'f')} et les ${pick_adjective('cerbères')}`;
+        // Week-end anniversaire de fin de la chaine
+        else if (new Date().getFullYear() == 2025 && new Date().getMonth() == 2 && [15,16].includes(new Date().getDate())) {
+            return `Joyeux copeauversaire les ${pick_adjective('copeaux')}, les ${pick_adjective('échardes', 'f')} et les ${pick_adjective('sciures', 'f')}`;
         }else{
             return `Salut les ${pick_adjective('copeaux')}, les ${pick_adjective('échardes', 'f')} et les ${pick_adjective('sciures', 'f')}`;
         }
