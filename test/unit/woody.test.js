@@ -11,9 +11,9 @@ test('Should use the default template any day but april first', () => {
     expect(config.generate_greetings((word)=>word)).toBe('Salut les copeaux, les échardes et les sciures');
 });
 
-test('Should use the special template on 2023 Castlevania Marathon', () => {
-    jest.useFakeTimers().setSystemTime(new Date('2023-06-17'));
-    expect(config.generate_greetings((word)=>word)).toBe('Salut les vampires, les manticores et les cerbères');
+test('Should use the special template on 2025 birthday stream', () => {
+    jest.useFakeTimers().setSystemTime(new Date('2025-03-15'));
+    expect(config.generate_greetings((word)=>word)).toBe('Joyeux copeauversaire les copeaux, les échardes et les sciures');
 });
 
 test('Dictionary should not contain duplicates in adjectives', () => {
