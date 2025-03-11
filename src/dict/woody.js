@@ -8,7 +8,7 @@ export default {
             return `Salut les ${pick_adjective('algues','f')}, les ${pick_adjective('anguilles', 'f')} et les ${pick_adjective('poissons')}`;
         }
         // Week-end anniversaire de fin de la chaine
-        else if (new Date().getFullYear() == 2025 && new Date().getMonth() == 2 && [15,16].includes(new Date().getDate())) {
+        else if (new Date().getFullYear() == 2025 && new Date().getMonth() == 2 && [14,15,16].includes(new Date().getDate())) {
             return `Joyeux copeauversaire les ${pick_adjective('copeaux')}, les ${pick_adjective('échardes', 'f')} et les ${pick_adjective('sciures', 'f')}`;
         }else{
             return `Salut les ${pick_adjective('copeaux')}, les ${pick_adjective('échardes', 'f')} et les ${pick_adjective('sciures', 'f')}`;
