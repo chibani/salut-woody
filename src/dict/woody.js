@@ -711,6 +711,12 @@ export default {
         '%s qui discudancent', // Message à Caractère Informatif
         '%s en peignoir dans leur canap',
         '%s bercé_e_s trop près du mur',
+        '%s polygames',
+        '%s monogames',
+        '%s contre le manspreading',
+        '%s qui manspreadent',
+        '%s mansplainistes',
+        {'m': '%s vélotaffeurs', 'f':'% vélotaffeuses'},
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -737,6 +743,7 @@ export default {
         '%s issu_e_s de l\'illustre famille Papillon',
         {'sciures': '%s qui se questionnent sur le sens de leur vie. D\'ailleurs, c\'est quoi le sens de la vie ? Vous voyez, moi, en tant que résidu de bois concassé, je pense que la vie c\'est avant tout une aventure. Une aventure qui commence là où s\'arrête celle d\'un autre, le bout de bois, qui, travaillé par le luthier deviendra une belle pièce. Et bien mon aventure à moi, ma vie, elle commence ici, à la chute de ce bout de bois, avant que je vienne à toucher le sol, violemment propulsé par un outillage destructeur.'},
         '%s à chaîne auto-affûtante',
+        '%s qui respectent la loi de Blondel',
         
         // Matériaux
         '%s en résine',
@@ -843,6 +850,7 @@ export default {
         '%s fort_e_s en pomme',
         '%s garantissant le retour de l\'être aimé',
         {'m': '%s gélatineux','f': '%s gélatineuses'},
+        '%s dont la sensation s\'appelle Coke™',
         
         // Cinématographie
         {'m':'%s supercalifragilisticexpialidocieux', 'f':'%s supercalifragilisticexpialidocieuses'},
@@ -872,6 +880,20 @@ export default {
         '%s qui savent comme moi qu’il y a pas de pellicule dans cette caméra',
         '%s qui veulent pas ressembler à un para',
         '%s sponsorisé_e_s par les Arches de Noé',
+        {'sciures': '%s qui n’en avaient pas conscience, et toi en avais-tu conscience Russell ?'},
+        '%s sur un sous-marin, Biff, un sous-marin',
+        '%s qui peuvent toujours courir mais pas se cacher',
+        '%s qui ont la classe américaine',
+        '%s qui préfèrent se barrer plutôt que d\'entendre ça plutôt que d\'être sourd_e_',
+        '%s qui ont gagné le concours du meilleur cuisinier asiatique en leur faisant… un méchoui',
+        '%s qui faisaient trois choses, du fromage, des ouiches lorraines et de la bouffe asiatique',
+        '%s fans de Sheraf (ce groupe number one)',
+        '%s fanascistes',
+        '%s qui se réveillent à 35 ans pour se demander ce que ça veut dire « monde de merde »',
+        '%s babloches',
+        '%s qui se pointent avec trois quarts d’heure de retard, pas bonjour, pas merci, filent tout droit au frigo, et prennent la dernière bière',
+        {'m': '%s préhistoriques partouzeurs de droite', 'f': '%s préhistoriques partouzeuses de droite'},
+        '%s juste dessiné_e_s comme ça',
         
         // Pop-Culture
         '%s qui ont eu leur prénom dans le générique du Club Dorothée',
@@ -886,17 +908,10 @@ export default {
         '%s qui veulent mes vêtements, mes bottes et ma moto',
         '%s qui pratiquent le free dance',
         '%s disco',
-        '%s qui ont la classe américaine',
-        '%s qui préfèrent se barrer plutôt que d\'entendre ça plutôt que d\'être sourd_e_',
+
         '%s qui croient en le pouvoir de l\'amitié',
         '%s qui ont trouvé le schmilblick',
-        '%s fans de Sheraf (ce groupe number one)',
-        '%s fanascistes',
-        '%s qui se réveillent à 35 ans pour se demander ce que ça veut dire « monde de merde »',
-        '%s babloches',
-        '%s qui se pointent avec trois quarts d’heure de retard, pas bonjour, pas merci, filent tout droit au frigo, et prennent la dernière bière',
-        {'m': '%s préhistoriques partouzeurs de droite', 'f': '%s préhistoriques partouzeuses de droite'},
-        '%s juste dessiné_e_s comme ça',
+        '%s qui feuillettent le catalogue en ligne de chez ACME',
         
         // Musique / Son
         '%s tombé_e_s du ciel et dont les étoiles entre-elles ne font que parler',
@@ -908,6 +923,8 @@ export default {
         {'m':'%s batteurs','f':'%s batteuses'},
         '%s CLAVIÉRISTES',
         '%s xylophonistes',
+        '%s qui jouent de l\'harmonium',
+        '%s multi-instrumentistes',
         {'m':'%s chanteurs', 'f': '%s chanteuses'},
         '%s choristes',
         '%s solistes',
@@ -953,8 +970,8 @@ export default {
         '%s qui jouent de l\'harmonium',
         {'f': '%s qui sont libertines, qui sont des catins, qui sont si fragiles, qu\'on leur tient la main'},
         {'f': '%s que elles elles aiment, le tamtam', 'm':'%s que eux ils aiment, le tamtam'},
-        
-
+        '%s qui pensent que Calogero est une marque de chauffe-eau',       
+        '%s d\'Ipanema',
 
         // Fans des artistes réguliers des playlists de Woody
         '%s fans de Freddo Mercure', // Freddy Mercury
@@ -1074,6 +1091,7 @@ export default {
         '%s de la famille Belmont',
         '%s sous DOS',
         '%s en NullPointerException',
+        '%s qui paient leur licence WinRAR',
 
         // Sport
         '%s culturistes',
@@ -1081,6 +1099,7 @@ export default {
         '%s musclé_e_s',
         '%s in shape',
         '%s aquaponistes',
+        '%s qui maitrisent le laser-flip',
         
         // Divers et inclassables
         '%s divers_e_s',
@@ -1099,6 +1118,9 @@ export default {
         {'f': '%s qui sont si chères à nos yeux qu\'elles figurent sur le catalogue UGAP', 'm': '%s qui sont si chers à nos yeux qu\'ils figurent sur le catalogue UGAP'},
         '%s qui sont les 1000emes',
         {'sciures': '%s de mouche'},
+        '%s narré_e_s à rebours',
+        '%s bien plus grand_e_s qu\'une voiture normale',
+        {'f':''}, // Spéciale dédicace à Axxter
 
         // Spécial sciures
         {'sciures': '%s Christopher Lee'},
