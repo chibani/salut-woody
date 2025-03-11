@@ -923,7 +923,6 @@ export default {
         {'m':'%s batteurs','f':'%s batteuses'},
         '%s CLAVIÉRISTES',
         '%s xylophonistes',
-        '%s qui jouent de l\'harmonium',
         '%s multi-instrumentistes',
         {'m':'%s chanteurs', 'f': '%s chanteuses'},
         '%s choristes',
