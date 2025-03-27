@@ -709,7 +709,7 @@ export default {
         '%s satanistes',
         '%s défiscalisé_e_s',
         {'m':'%s inclusifs', 'f': '%s inclusives'},
-        '%s qui discudancent', // Message à Caractère Informatif
+        '%s qui discudansent', // Message à Caractère Informatif
         '%s en peignoir dans leur canap',
         '%s bercé_e_s trop près du mur',
         '%s polygames',
@@ -717,7 +717,7 @@ export default {
         '%s contre le manspreading',
         '%s qui manspreadent',
         '%s mansplainistes',
-        {'m': '%s vélotaffeurs', 'f':'% vélotaffeuses'},
+        {'m': '%s vélotaffeurs', 'f':'%s vélotaffeuses'},
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
