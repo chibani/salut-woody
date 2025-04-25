@@ -1011,6 +1011,7 @@ export default {
         '%s qui vont a la page 394',
         '%s qui font des unboxing de bières',
         '%s qui geignent dans le jasmin',
+        '%s spécialistes de la dynastie des Login-Nagios',
 
         // Expressions courantes
         '%s qui ont vu l\'homme qui a vu l’ours',
