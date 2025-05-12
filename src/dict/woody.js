@@ -718,6 +718,7 @@ export default {
         '%s qui manspreadent',
         '%s mansplainistes',
         {'m': '%s vélotaffeurs', 'f':'%s vélotaffeuses'},
+        '%s qui peuvent plus rien dire',
         
         // Menuiserie / Lutherie / Bois / Bricolage
         '%s xylophages',
@@ -894,6 +895,8 @@ export default {
         '%s qui se pointent avec trois quarts d’heure de retard, pas bonjour, pas merci, filent tout droit au frigo, et prennent la dernière bière',
         {'m': '%s préhistoriques partouzeurs de droite', 'f': '%s préhistoriques partouzeuses de droite'},
         '%s juste dessiné_e_s comme ça',
+        '%s à qui il ne peut plus rien arriver d\'affreux maintenant',
+        '%s qui disent ne pas voir le rapport',
         
         // Pop-Culture
         '%s qui ont eu leur prénom dans le générique du Club Dorothée',
