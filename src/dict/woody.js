@@ -897,6 +897,7 @@ export default {
         '%s juste dessiné_e_s comme ça',
         '%s à qui il ne peut plus rien arriver d\'affreux maintenant',
         '%s qui disent ne pas voir le rapport',
+        '%s dessiné_e_s comme une de mes Françaises',
         
         // Pop-Culture
         '%s qui ont eu leur prénom dans le générique du Club Dorothée',
