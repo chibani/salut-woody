@@ -865,10 +865,12 @@ export default {
         '%s capables de tromper mille personnes une fois',
         '%s qui VOITUUUUURE ... ENGAGEMENT',
         '%s qui aiment taper',
+        {'m': '%s qui jouent ... comme un dieu'},
+        '%s qui sont "dégagés des parents"',
         '%s vu_e_s sur caméra 1, caméra 2, caméra 1',
         {'f': '%s qui un jour seront miennes, oh oui, un jour elles seront miennes'},
         '%s en train de se retricotter un filet', // Wayne's World, scène du hockey dans la rue
-        '%s qui aiment leurs slips bien serrés',
+        '%s qui aiment leurs t-shirts moulants et bien serrés',
         '%s qui jamais ne s\'inclinent devant un sponsor',
         '%s zebré_e_s pour leur plaisir',
         '%s qui se sentent tout zarb',
@@ -1012,6 +1014,7 @@ export default {
         '%s qui collectionnent des des canards (vivants)',
         '%s qui se prononcent "Cheh" en sumérien',
         '%s qui font des drifts en Punto',
+        '%s qui arpentent le désert en Nissan Al Gaïb',
         '%s qui vont a la page 394',
         '%s qui font des unboxing de bières',
         '%s qui geignent dans le jasmin',
@@ -1156,6 +1159,7 @@ export default {
         '%s narré_e_s à rebours',
         '%s bien plus grand_e_s qu\'une voiture normale',
         {'f':''}, // Spéciale dédicace à Axxter
+        '%s qui s\'enjaillent en festival',
 
         // Spécial sciures
         {'sciures': '%s Christopher Lee'},
