@@ -496,6 +496,7 @@ export default {
         '%s emphatiques', // pompeux, ampoulé, grandiloquent.
         '%s séculaires',
         '%s hydratant_e_s mais pas gra_sse_s',
+        '%s thaumaturges',
         
         // Expressions Quebecoises
         {'m': '%s vlimeux', 'f': '%s vlimeuses'}, // rusé et malicieux
