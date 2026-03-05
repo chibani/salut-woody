@@ -761,8 +761,8 @@ export default {
         '%s composites',
         '%s polymérisé_e_s',
         {'m': '%s poussiéreux', 'f': '%s poussiéreuses'},
-        '%s pétrogènes', // Nés de la pierre 
-        '%s xylogènes', 
+        '%s pétrogènes', // Nés de la pierre
+        '%s xylogènes',
         {'m':'%s ligneux', 'f': '%s ligneuses'},
         {'m':'%s duveteux', 'f': '%s duveteuses'},
         '%s en pilou-pilou',
@@ -901,7 +901,9 @@ export default {
         '%s à qui il ne peut plus rien arriver d\'affreux maintenant',
         '%s qui disent ne pas voir le rapport',
         '%s dessiné_e_s comme une de mes Françaises',
-        
+        '%s qui cherchent leur con de perchman. Qu\'est-ce qu\'il fout ? ça fait 1h qu\'on l\'attend. Comment ça tu sais pas où il est ? J\'ai pas le temps d\'attendre moi. Bon, on va le faire muet écoutez...',
+        '%s qui hurlent MOTEUR. MOTEUR BON SANG. MOOOOOOOOOTTTTTTTTTEEEEEEEEEEEUUUUUUUUUUUUUUUUUR !!!!!!!!!',
+
         // Pop-Culture
         '%s qui ont eu leur prénom dans le générique du Club Dorothée',
         '%s sans pitié pour les croissants',
