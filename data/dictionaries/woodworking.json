@@ -1,0 +1,64 @@
+[
+  "%s des bois",
+  "%s arboricoles",
+  "%s lisses",
+  {
+    "m": "%s rugueux",
+    "f": "%s rugueuses"
+  },
+  {
+    "m": "%s soyeux",
+    "f": "%s soyeuses"
+  },
+  "%s xylophages",
+  "%s égrainé_e_s au 2000",
+  "%s poncé_e_s",
+  "%s rabotté_e_s",
+  "%s verni_e_s",
+  "%s collé_e_s à la cyano",
+  "%s affûté_e_s",
+  "%s doré_e_s finement",
+  "%s sculpté_e_s à la main",
+  "%s pyrogravé_e_s",
+  "%s brûlé_e_s",
+  "%s finement ciselé_e_s",
+  "%s peint_e_s à la main",
+  "%s qui poncent donc qui sont",
+  {
+    "m": "%s poussiéreux",
+    "f": "%s poussiéreuses"
+  },
+  {
+    "m": "%s ligneux",
+    "f": "%s ligneuses"
+  },
+  {
+    "m": "%s duveteux",
+    "f": "%s duveteuses"
+  },
+  "%s qui perdent leurs ciseaux",
+  "%s rangé_e_s dans la cabane",
+  "%s qui mettent l'acétone dans la cabane",
+  "%s vêtu_e_s d'un splendide tablier",
+  "%s qui gomment avec une ponceuse",
+  {
+    "sciures": "%s qui se questionnent sur le sens de leur vie. D'ailleurs, c'est quoi le sens de la vie ? Vous voyez, moi, en tant que résidu de bois concassé, je pense que la vie c'est avant tout une aventure. Une aventure qui commence là où s'arrête celle d'un autre, le bout de bois, qui, travaillé par le luthier deviendra une belle pièce. Et bien mon aventure à moi, ma vie, elle commence ici, à la chute de ce bout de bois, avant que je vienne à toucher le sol, violemment propulsé par un outillage destructeur."
+  },
+  "%s démonétisé_e_s",
+  "%s venu_e_s découvrir les meilleures playlist Spotify du Twitch Game",
+  "%s qui lâchent leur prime",
+  "%s-sandwich de qualitay",
+  "%s qui balancent des bons gros raids de 2000 personnes",
+  "%s qui propulsent le hype train",
+  "%s doté_e_s du pouvoir des étoiles",
+  "%s qui subbent",
+  "%s abonné_e_s",
+  "%s en text-to-speech germanique",
+  "%s qui marchent sur le câble de leur Stream Deck",
+  "%s mute",
+  {
+    "m": "%s lurkers",
+    "f": "%s lurkeuses"
+  },
+  "%s sponsorisé_e_s"
+]

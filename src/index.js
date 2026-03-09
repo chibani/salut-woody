@@ -1,8 +1,10 @@
 import Greeter from './greeter.js';
-import config from './dict/woody.js';
+import { loadProfile } from './profile-loader.js';
+import woodyProfile from '../data/profiles/woody.json';
 import {gsap} from "gsap/all.js";
 import "./assets/css/style.css";
 
+const config = loadProfile(woodyProfile);
 const greeter = new Greeter(config);
 
 

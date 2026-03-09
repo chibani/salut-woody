@@ -1,0 +1,60 @@
+[
+  "%s appendiculaires",
+  {
+    "m": "%s cérébraux",
+    "f": "%s cérébrales"
+  },
+  "%s fongiques",
+  "%s mycosé_e_s",
+  "%s capillaires",
+  "%s claviculaires",
+  {
+    "m": "%s convulsifs",
+    "f": "%s convulsives"
+  },
+  "%s infantiles",
+  "%s gastriques",
+  {
+    "m": "%s gingivaux",
+    "f": "%s gingivales"
+  },
+  "%s névrotiques",
+  "%s auriculaires",
+  "%s ourlien_ne_s",
+  {
+    "m": "%s subunguéaux",
+    "f": "%s subunguéales"
+  },
+  "%s cutané_e_s",
+  "%s palpébral_e_s",
+  {
+    "m": "%s pileux",
+    "f": "%s pileuses"
+  },
+  "%s psychotiques",
+  "%s spléniques",
+  {
+    "m": "%s rénaux",
+    "f": "%s rénales"
+  },
+  {
+    "m": "%s septaux",
+    "f": "%s septales"
+  },
+  {
+    "m": "%s prandiaux",
+    "f": "%s prandiales"
+  },
+  "%s vésiculaires",
+  "%s ventriloques",
+  "%s flatulent_e_s",
+  "%s somnambules",
+  "%s symbiotiques",
+  "%s somatiques",
+  "%s scapulaires",
+  "%s sous-scapulaires",
+  "%s anatomopathologistes",
+  "%s énergéticien_ne_s",
+  "%s aligné_e_s sur le plan vibratoire",
+  "%s homéopatiques"
+]

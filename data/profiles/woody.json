@@ -1,0 +1,34 @@
+{
+  "id": "woody",
+  "name": "Woody Lutherie",
+  "dictionaries": ["common", "sciences", "culture", "woodworking", "food", "astrology", "computers", "medecine", "music", "regionalisme", "tinkering", "woody-sciures", "woody", "protsky"],
+  "templates": [
+    {
+      "condition": { "type": "date", "month": 4, "day": 1 },
+      "pattern": "Salut les {0}, les {1} et les {2}",
+      "slots": [
+        { "word": "algues",    "gender": "f" },
+        { "word": "anguilles", "gender": "f" },
+        { "word": "poissons",  "gender": "m" }
+      ]
+    },
+    {
+      "condition": { "type": "date_range", "year": 2025, "month": 3, "days": [14, 15, 16] },
+      "pattern": "Joyeux copeauversaire les {0}, les {1} et les {2}",
+      "slots": [
+        { "word": "copeaux",  "gender": "m" },
+        { "word": "échardes", "gender": "f" },
+        { "word": "sciures",  "gender": "f" }
+      ]
+    },
+    {
+      "condition": null,
+      "pattern": "Salut les {0}, les {1} et les {2}",
+      "slots": [
+        { "word": "copeaux",  "gender": "m" },
+        { "word": "échardes", "gender": "f" },
+        { "word": "sciures",  "gender": "f" }
+      ]
+    }
+  ]
+}

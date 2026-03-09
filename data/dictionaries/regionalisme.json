@@ -1,0 +1,37 @@
+[
+  "%s breton_ne_s (BZH !)",
+  "%s des Outre-mers",
+  "%s expatrié_e_s",
+  "%s zadistes",
+  "%s sudistes",
+  "%s Suisse-Allemand_e_s",
+  "%s armoricain_e_s",
+  "%s urbain_e_s",
+  "%s périurbain_e_s",
+  {
+    "m": "%s frontaliers",
+    "f": "%s frontalières"
+  },
+  "%s nordiques",
+  "%s à l'ouest",
+  "%s du bout du monde",
+  "%s Marseillai_se_s",
+  "%s lyonnais_e_s",
+  "%s monegasques",
+  "%s sibérien_ne_s",
+  "%s géolocalisé_e_s",
+  {
+    "m": "%s septentrionaux",
+    "f": "%s septentrionales"
+  },
+  {
+    "m": "%s méridionaux",
+    "f": "%s méridionales"
+  },
+  "%s habitant_e_s du Larrrrzac",
+  "%s habitang_uete_s du Larrrrzac-uh",
+  "%s du nord",
+  "%s du sud",
+  "%s qui sachent qu'au dessus de Montélimar c'est le nord",
+  "%s qui pensent qu'au dessus de Lyon c'est le nord"
+]

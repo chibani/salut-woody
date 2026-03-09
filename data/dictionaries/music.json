@@ -1,0 +1,45 @@
+[
+  {
+    "m": "%s multi-tonaux",
+    "f": "%s multi-tonales"
+  },
+  "%s fretless",
+  "%s trombonistes",
+  "%s bassistes",
+  "%s guitaristes",
+  {
+    "m": "%s batteurs",
+    "f": "%s batteuses"
+  },
+  "%s CLAVIÉRISTES",
+  "%s xylophonistes",
+  "%s multi-instrumentistes",
+  {
+    "m": "%s chanteurs",
+    "f": "%s chanteuses"
+  },
+  "%s choristes",
+  "%s solistes",
+  "%s casserolistes",
+  "%s désaccordé_e_s",
+  "%s en ré-mineur",
+  "%s en fa-dièse",
+  {
+    "m": "%s chanteurs de K-pop",
+    "f": "%s chanteuses de K-pop"
+  },
+  {
+    "m": "%s métalleux",
+    "f": "%s métalleuses"
+  },
+  "%s qui chantent des cantiques",
+  "%s en Do Majeur",
+  "%s en Ré Majeur",
+  "%s en Mi Majeur",
+  "%s en Fa Majeur",
+  "%s en Sol Majeur",
+  "%s en La Majeur",
+  "%s en Si Majeur",
+  "%s en La 440",
+  "%s qui jouent de l'harmonium"
+]
