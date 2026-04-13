@@ -1,4 +1,5 @@
 import astrology from '../data/dictionaries/astrology.json';
+import cinema from '../data/dictionaries/cinema.json';
 import common from '../data/dictionaries/common.json';
 import computers from '../data/dictionaries/computers.json';
 import culture from '../data/dictionaries/culture.json';
@@ -13,7 +14,23 @@ import woodworking from '../data/dictionaries/woodworking.json';
 import woodySciures from '../data/dictionaries/woody-sciures.json';
 import woody from '../data/dictionaries/woody.json';
 
-const DICTIONARIES = { common, sciences, culture, woodworking, food, astrology, computers, medecine, music, protsky,regionalisme, tinkering, 'woody-sciures': woodySciures, woody };
+const DICTIONARIES = {
+    astrology,
+    cinema,
+    common,
+    computers,
+    culture,
+    food,
+    medecine,
+    music,
+    protsky,
+    regionalisme,
+    sciences,
+    tinkering,
+    woodworking,
+    woody,
+    woodySciures,
+};
 
 function matchesCondition(condition) {
     const now = new Date();
