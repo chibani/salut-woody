@@ -980,6 +980,8 @@ export default {
         {'f': '%s que elles elles aiment, le tamtam', 'm':'%s que eux ils aiment, le tamtam'},
         '%s qui pensent que Calogero est une marque de chauffe-eau',       
         '%s d\'Ipanema',
+        '%s qui jouent la guitare sur la MTV',
+        '%s qui ont l\'argent pour rien et le poulet pour gratuit',
 
         // Fans des artistes réguliers des playlists de Woody
         '%s fans de Freddo Mercure', // Freddy Mercury
