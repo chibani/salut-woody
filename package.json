@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "outil de salutations",
   "main": "main.js",
+  "type": "module",
   "private": true,
   "engines":{
     "node": ">=18"
@@ -23,7 +24,7 @@
   },
   "scripts": {
     "build": "webpack",
-    "build:test": "webpack --config test/webpack.test.config.js",
+    "build:test": "webpack --config test/webpack.test.config.cjs",
     "test": "npm run build:test && jest test/bundle.test.js",
     "lint": "eslint src/",
     "generate": "node src/scripts/generate_samples.js"
