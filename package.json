@@ -25,7 +25,8 @@
     "build": "webpack",
     "build:test": "webpack --config test/webpack.test.config.js",
     "test": "npm run build:test && jest test/bundle.test.js",
-    "lint": "eslint src/"
+    "lint": "eslint src/",
+    "generate": "node src/scripts/generate_samples.js"
   },
   "repository": {
     "type": "git",
