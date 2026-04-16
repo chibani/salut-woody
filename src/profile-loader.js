@@ -10,6 +10,7 @@ import protsky from '../data/dictionaries/protsky.json';
 import regionalisme from '../data/dictionaries/regionalisme.json';
 import sciences from '../data/dictionaries/sciences.json';
 import tinkering from '../data/dictionaries/tinkering.json';
+import titavion from '../data/dictionaries/titavion.json';
 import woodworking from '../data/dictionaries/woodworking.json';
 import woodySciures from '../data/dictionaries/woody-sciures.json';
 import woody from '../data/dictionaries/woody.json';
@@ -27,6 +28,7 @@ const DICTIONARIES = {
     regionalisme,
     sciences,
     tinkering,
+    titavion,
     woodworking,
     woody,
     woodySciures,

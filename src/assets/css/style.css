@@ -38,3 +38,24 @@ footer {
     margin: 0;
     width: 100%;
 }
+
+#div_profile_selector {
+    margin: 1em 0;
+    padding: 0.5em;
+    background: rgba(145, 43, 185, 0.1);
+    border-radius: 8px;
+}
+
+#profile_select {
+    padding: 0.3em;
+    font-size: 1em;
+    background: #222;
+    color: #fff7dc;
+    border: 1px solid #912bb9;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#profile_select:hover {
+    border-color: #b84ad4;
+}

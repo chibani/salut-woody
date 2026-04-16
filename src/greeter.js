@@ -6,13 +6,24 @@ export default class Greeter {
     }
 
     pick_adjective = (position=0, word='', gender='m') => {
-        const adj = this.getCompatibleAdjectives(this.config.adjectives, word, gender).at(position);
-
+        const compatibles = this.getCompatibleAdjectives(this.config.adjectives, word, gender);
+        if (compatibles.length === 0) {
+            return ` ${word}`;
+        }
+        const adj = compatibles.at(position);
+        if (!adj) {
+            return ` ${word}`;
+        }
         return this.adjectivize(word, adj, gender);
     }
 
     pick_random_adjective = (word, gender = 'm') => {
-        return this.pick_adjective(Math.floor(Math.random() * this.getCompatibleAdjectives(this.config.adjectives, word, gender).length), word, gender);
+        const compatibles = this.getCompatibleAdjectives(this.config.adjectives, word, gender);
+        if (compatibles.length === 0) {
+            return ` ${word}`;
+        }
+        const position = Math.floor(Math.random() * compatibles.length);
+        return this.pick_adjective(position, word, gender);
     }
 
     pick_all_adjectives = (word, gender = 'm') => {
@@ -20,11 +31,15 @@ export default class Greeter {
     }
 
     adjectivize = (word, adj, gender) => {
-        console.log(word, adj, gender);
+        if (!adj) {
+            return ` ${word}`;
+        }
         if (typeof adj === 'string') {
             return this.gender_swap(adj, gender).replace('%s', word);
         } else {
-            return adj[word in adj?word:gender].replace('%s', word);
+            const keys = Object.keys(adj);
+            const key = keys.includes(word) ? word : gender;
+            return adj[key].replace('%s', word);
         }
     }
 
@@ -33,10 +48,16 @@ export default class Greeter {
     }
 
     isCompatible = (adj, word, gender) => {
+        if (!adj) {
+            return false;
+        }
         if (typeof adj === 'string') {
             return true;
         } else {
-            return word in adj || gender in adj;
+            const keys = Object.keys(adj);
+            const hasWordKey = keys.includes(word);
+            const hasGenderKey = keys.includes(gender);
+            return hasWordKey || hasGenderKey;
         }
     }
 
