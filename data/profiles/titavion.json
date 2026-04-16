@@ -7,9 +7,9 @@
       "condition": null,
       "pattern": "Salut les {0}, les {1} et les {2}",
       "slots": [
-        { "word": "pilotes",  "gender": "m" },
-        { "word": "hélices",  "gender": "f" },
-        { "word": "ailes",    "gender": "f" }
+        { "word": "chocopains",  "gender": "m" },
+        { "word": "éclairs",     "gender": "m" },
+        { "word": "autres viennoiseries", "gender": "f" }
       ]
     }
   ]
