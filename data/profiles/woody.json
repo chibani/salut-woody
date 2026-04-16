@@ -1,7 +1,7 @@
 {
   "id": "woody",
   "name": "Woody Lutherie",
-  "description": "Pour le luthier-streameur qui fabriquerait bien des guitares avec ses viewers. <a href=\"https://www.twitch.tv/woodylutry\">Voir sa chaîne</a>.",
+  "description": "Pour le joueur-animateur <a href=\"https://www.twitch.tv/woodylutry\">Woody Lutry</a> (ex Woody Lutherie).",
   "dictionaries": ["common", "sciences", "culture", "woodworking", "food", "astrology", "computers", "medecine", "music", "regionalisme", "tinkering", "woody-sciures", "woody", "protsky"],
   "templates": [
     {
