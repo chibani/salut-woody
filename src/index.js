@@ -20,6 +20,7 @@ function initProfile(profileId) {
     greeter = new Greeter(config);
     
     document.getElementById("txt_adjectives_counter").innerText = config.adjectives.length;
+    document.getElementById("txt_profile_presentation").innerHTML = profile.description || `Salutations pour <strong>${profile.name}</strong>}`;
     update_greetings();
 }
 
@@ -66,7 +67,8 @@ document.getElementById("btn_refresh").addEventListener("click", update_greeting
 document.getElementById("btn_copy").addEventListener("click", () => greeter?.copy_to_clipboard());
 
 gsap.from(document.getElementById("title_main"), {duration: 1, opacity: 0, x: -100, ease: "power4.out"});
-gsap.from(document.getElementById("div_profile_selector"), {duration: 1, opacity: 0, y: -10, ease: "power4.out", delay: 0.3});
-gsap.from(document.getElementById("txt_welcome"), {duration: 1, opacity: 0, y: -10, ease: "power4.out", delay: 0.5});
+gsap.from(document.getElementById("txt_intro"), {duration: 1, opacity: 0, y: -10, ease: "power4.out", delay: 0.3});
+gsap.from(document.getElementById("txt_profile_presentation"), {duration: 1, opacity: 0, y: -10, ease: "power4.out", delay: 0.5});
+gsap.from(document.getElementById("div_profile_selector"), {duration: 1, opacity: 0, y: -10, ease: "power4.out", delay: 0.7});
 gsap.from(document.getElementById("div_greetings"), {duration: 1, opacity: 0, y: -10, ease: "power4.out", delay: 1});
 gsap.from(document.getElementById("txt_help"), {duration: 2, opacity: 0, y: 20, ease: "power4.out", delay: 1.5});

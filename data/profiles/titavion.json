@@ -1,7 +1,8 @@
 {
   "id": "titavion",
   "name": "Titavion",
-  "dictionaries": ["common", "sciences", "culture", "food", "astrology", "computers", "medecine", "music", "regionalisme", "tinkering", "protsky"],
+  "description": "Pour le streamer rétro-fight games qui déguste des viennoiseries entre deux combos. <a href=\"https://www.twitch.tv/titavion\">Voir sa chaîne</a>.",
+  "dictionaries": ["common", "sciences", "culture", "food", "astrology", "computers", "medecine", "music", "regionalisme", "tinkering", "protsky", "titavion"],
   "templates": [
     {
       "condition": null,
